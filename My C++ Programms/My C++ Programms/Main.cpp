@@ -13,19 +13,19 @@ int main()
 
 	if (UserChoice == 1)
 	{
-		cout << "You selected Bulbasaur. Great choice!";
+		cout << "You selected Bulbasaur. Great choice!\n";
 	}
 	else if (UserChoice == 2)
 	{
-		cout << "You selected Charmander. Nice Selection!!";
+		cout << "You selected Charmander. Nice Selection!!\n";
 	}
 	else if (UserChoice == 3)
 	{
-		cout << "You selected Squirtle. Awesome!!!";
+		cout << "You selected Squirtle. Awesome!!!\n";
 	}
 	else
 	{
-		cout << "Your choice is invalid. Please start the game again!";
+		cout << "Your choice is invalid. Please start the game again!\n";
 	}
 
 	return 0;
