@@ -1,8 +1,8 @@
-ï»¿//#include<iostream>
+//#include<iostream>
 //#include<string>
 //using namespace std;
 //
-//enum PokemonChoice
+//enum class PokemonChoice
 //{
 //    Charmander,
 //    Bulbasaur,
@@ -13,7 +13,7 @@
 //int main()
 //{
 //    string player_name;
-//    PokemonChoice chosen_pokemon = InvalidChoice; //Default choice as Invalid choice
+//    PokemonChoice chosen_pokemon = PokemonChoice::InvalidChoice; //Default choice as Invalid choice
 //    int choice;
 //
 //    // Introduction by the Professor
@@ -22,14 +22,14 @@
 //    cout << "Professor Oak: But enough about me. Let's talk about you!\n";
 //
 //    // Taking player name as input
-//    cout << "Professor Oak: First, tell me, whatâ€™s your name?\n";
+//    cout << "Professor Oak: First, tell me, what’s your name?\n";
 //    cin >> player_name;
 //
 //    cout << "Professor Oak: Ah, " << player_name << "! What a fantastic name!\n";
-//    cout << "Professor Oak: You must be eager to start your adventure. But first, youâ€™ll need a Pokemon of your own!\n";
+//    cout << "Professor Oak: You must be eager to start your adventure. But first, you’ll need a Pokemon of your own!\n";
 //
 //    // Presenting Pokemon choices
-//    cout << "Professor Oak: I have three Pokemon here with me. Theyâ€™re all quite feisty!\n";
+//    cout << "Professor Oak: I have three Pokemon here with me. They’re all quite feisty!\n";
 //    cout << "Professor Oak: Choose wisely...\n";
 //    cout << "1. Charmander - The fire type. A real hothead!\n";
 //    cout << "2. Bulbasaur - The grass type. Calm and collected!\n";
@@ -41,44 +41,44 @@
 //    switch (choice)
 //    {
 //    case 1:
-//        chosen_pokemon = Charmander;
+//        chosen_pokemon = PokemonChoice::Charmander;
 //        break;
 //
 //    case 2:
-//        chosen_pokemon = Bulbasaur;
+//        chosen_pokemon = PokemonChoice::Bulbasaur;
 //        break;
 //
 //    case 3:
-//        chosen_pokemon = Squirtle;
+//        chosen_pokemon = PokemonChoice::Squirtle;
 //        break;
 //
 //    default:
-//        chosen_pokemon = InvalidChoice;
+//        chosen_pokemon = PokemonChoice::InvalidChoice;
 //        break;
 //    }
 //
 //    switch (chosen_pokemon)
 //    {
-//    case Charmander:
+//    case PokemonChoice::Charmander:
 //        cout << "Professor Oak: A fiery choice! Charmander is yours!\n";
 //        break;
 //
-//    case Bulbasaur:
+//    case PokemonChoice::Bulbasaur:
 //        cout << "Professor Oak: A fine choice! Bulbasaur is always ready to grow on you!\n";
 //        break;
 //
-//    case Squirtle:
+//    case PokemonChoice::Squirtle:
 //        cout << "Professor Oak: Splendid! Squirtle will keep you cool under pressure!\n";
 //        break;
 //
 //    default:
-//        cout << "Professor Oak: Hmm, that doesn't seem right. Let me choose for you...\n";
-//        chosen_pokemon = Charmander;
+//        cout << "\nProfessor Oak: Hmm, that doesn't seem right. Let me choose for you...\n";
+//        chosen_pokemon = PokemonChoice::Charmander;
 //        cout << "Professor Oak: Just kidding! Let's go with Charmander, the fiery dragon in the making!\n";
 //        break;
 //    }
 //
-//    cout << "Professor Oak: " << (chosen_pokemon == Charmander ? "Charmander" : chosen_pokemon == Bulbasaur ? "Bulbasaur" : "Squirtle")
+//    cout << "Professor Oak: " << (chosen_pokemon == PokemonChoice::Charmander ? "Charmander" : chosen_pokemon == PokemonChoice::Bulbasaur ? "Bulbasaur" : "Squirtle")
 //        << " and you, " << player_name << ", are going to be the best of friends!\n";
 //    cout << "Professor Oak: Your journey begins now! Get ready to explore the vast world of Pokemon!\n";
 //    return 0;
