@@ -33,5 +33,8 @@
     <ClCompile Include="MysteriousRoomsAdventure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TheGreatTypeBattle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
