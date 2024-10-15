@@ -127,8 +127,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChoosePokemonWithEnum.cpp" />
+    <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="My C++ Programms.cpp" />
+    <ClCompile Include="MysteriousRoomsAdventure.cpp" />
+    <ClCompile Include="PokemonSelection.cpp" />
+    <ClCompile Include="TheGreatTypeBattle.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
