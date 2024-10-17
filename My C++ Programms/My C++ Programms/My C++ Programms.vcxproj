@@ -129,6 +129,7 @@
   <ItemGroup>
     <ClCompile Include="ChoosePokemonWithEnum.cpp" />
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
+    <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="My C++ Programms.cpp" />
     <ClCompile Include="MysteriousRoomsAdventure.cpp" />
