@@ -127,6 +127,7 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CallByReferenceNCallByValue.cpp" />
     <ClCompile Include="ChoosePokemonWithEnum.cpp" />
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
     <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
