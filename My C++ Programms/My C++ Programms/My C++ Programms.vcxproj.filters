@@ -42,5 +42,11 @@
     <ClCompile Include="CallByReferenceNCallByValue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="TheLegendaryConstructorsScroll.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MyPracticeProgram.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
