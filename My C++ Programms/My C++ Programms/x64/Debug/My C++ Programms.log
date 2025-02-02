@@ -1,6 +1,2 @@
-﻿  CreatingClasses&Objects.cpp
-  MyPracticeProgram.cpp
-  TheLegendaryConstructorsScroll.cpp
-  Generating Code...
-TheLegendaryConstructorsScroll.obj : error LNK2005: main already defined in CreatingClasses&Objects.obj
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\x64\Debug\My C++ Programms.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  TheLegendaryConstructorsScroll.cpp
+  My C++ Programms.vcxproj -> E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\x64\Debug\My C++ Programms.exe
