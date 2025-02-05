@@ -1,75 +1,182 @@
-#include <iostream>
-#include <string>
+#include<iostream>
 using namespace std;
 
+//enum pokemonchoice
 enum class PokemonChoice
 {
-    Charmandar,
-    Bulbasaur,
-    Squirtle,
-    Pikachu
+	Charmander,
+	Bulbasaur,
+	Squirtle,
+	Pikachu
 };
+
 enum class PokemonType
 {
-    Fire,
-    Water,
-    Air,
-    Electric
-};
-
-class Player
-{
-    string Player_Name;
-    PokemonChoice _pokemonChoice;
-    Player()//default constructor
-    {
-        cout << "Player Name is:" << Player_Name;
-    }
-
-    Player(string p_name, PokemonChoice p_chosenPokemon)
-    {
-        Player_Name = p_name;
-        _pokemonChoice = p_chosenPokemon;
-    }
-
-    Player(Player& _player)
-    {
-        _player.Player_Name;
-        _player._pokemonChoice;
-    }
+	Fire,
+	Grass,
+	Water,
+	Electric,
+	Normal
 };
 
 class Pokemon
 {
-    string Pokemon_Name;
-    PokemonType _pokemonType;
-    int health;
-    Pokemon()
-    {
-        Pokemon_Name = "Pikachu";
-        _pokemonType = PokemonType::Electric;
-        health = 10;
-    }
+	public:
+		string name;
+		PokemonType type;
+		int health;
 
-    Pokemon(string p_name, PokemonType p_type, int p_health)
-    {
-        Pokemon_Name = p_name;
-        _pokemonType = p_type;
-        health = p_health;
-    }
+		Pokemon()
+		{
+			name = "Unknown";
+			type = PokemonType::Normal;
+			health = 50;
+		}
+		//parameterized constructor
+		Pokemon(string p_name, PokemonType p_type, int p_health)
+		{
+			name = p_name;
+			type = p_type;
+			health = p_health;
+		}
 
-    Pokemon(Pokemon& _pokemon)
-    {
-        _pokemon.Pokemon_Name;
-        _pokemon._pokemonType;
-        _pokemon.health;
-    }
+		//copy constructor
+		Pokemon(const Pokemon& other)
+		{
+			name = other.name;
+			type = other.type;
+			health = other.health;
+		}
+		//Destructor
+		~Pokemon()
+		{
+			cout << "data is deleted & related memory is free now";
+		}
+		void attack()
+		{
+			cout << name << "attack with a powerful move!\n";
+		}
 };
 
-int main()
+//player class
+class Player
 {
+public:
+	string name;
+	Pokemon chosenPokemon;
 
-}
+	//Default constructor
+	Player()
+	{
+		name = "Trainer";
+		chosenPokemon = Pokemon();
+	}
+
+	//parameterized constructor
+	Player(string p_name, Pokemon p_chosenPokemon)
+	{
+		name = p_name;
+		chosenPokemon = p_chosenPokemon;
+	}
+
+	void choosePokemon(int choice)
+	{
+		switch ((PokemonChoice)choice)
+		{
+		case PokemonChoice::Charmander:
+				chosenPokemon = Pokemon("Charmander", PokemonType::Fire, 100);
+				break;
+		case PokemonChoice::Bulbasaur:
+			chosenPokemon = Pokemon("Bubasaur", PokemonType::Grass, 100);
+			break;
+		case PokemonChoice::Squirtle:
+			chosenPokemon = Pokemon("Squirtle", PokemonType::Water, 100);
+			break;
+		default:
+			chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100);
+			break;
+		}
+		cout << "Player" << name << "chose" << chosenPokemon.name << "!\n";
+	}
+};
+
+
+
+
+
+
+//#include <iostream>
+//#include <string>
+//using namespace std;
+//
+//enum class PokemonChoice
+//{
+//    Charmandar,
+//    Bulbasaur,
+//    Squirtle,
+//    Pikachu
+//};
+//enum class PokemonType
+//{
+//    Fire,
+//    Water,
+//    Air,
+//    Electric
+//};
+//
+//class Player
+//{
+//    string Player_Name;
+//    PokemonChoice _pokemonChoice;
+//    Player()//default constructor
+//    {
+//        cout << "Player Name is:" << Player_Name;
+//    }
+//
+//    Player(string p_name, PokemonChoice p_chosenPokemon)
+//    {
+//        Player_Name = p_name;
+//        _pokemonChoice = p_chosenPokemon;
+//    }
+//
+//    Player(Player& _player)
+//    {
+//        _player.Player_Name;
+//        _player._pokemonChoice;
+//    }
+//};
+//
+//class Pokemon
+//{
+//    string Pokemon_Name;
+//    PokemonType _pokemonType;
+//    int health;
+//    Pokemon()
+//    {
+//        Pokemon_Name = "Pikachu";
+//        _pokemonType = PokemonType::Electric;
+//        health = 10;
+//    }
+//
+//    Pokemon(string p_name, PokemonType p_type, int p_health)
+//    {
+//        Pokemon_Name = p_name;
+//        _pokemonType = p_type;
+//        health = p_health;
+//    }
+//
+//    Pokemon(Pokemon& _pokemon)
+//    {
+//        _pokemon.Pokemon_Name;
+//        _pokemon._pokemonType;
+//        _pokemon.health;
+//    }
+//};
+//
+//int main()
+//{
+//
+//}
 
 
 
