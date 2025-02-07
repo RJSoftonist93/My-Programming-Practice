@@ -97,7 +97,7 @@ public:
 			chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100);
 			break;
 		}
-		cout << "Player" << name << "chose" << chosenPokemon.name << "!\n";
+		cout << "Player " << name << "chose " << chosenPokemon.name << "!\n";
 	}
 };
 //professor Oak class defination
@@ -121,7 +121,7 @@ public:
 	{
 		cout << name << ": First tell me, what is your name?\t [Please Enter Your Name]\n";
 		getline(cin, player.name);
-		cout << name << ":Ah," << player.name << "!What a fantastic name!\n";
+		cout << name << ":Ah, " << player.name << "! What a fantastic name!\n";
 		cout << name << ": You must be eager to start your adventure. But first, you will need a pokemon of your own!\n";
 
 		//Presenting Pokemon choices
@@ -130,7 +130,7 @@ public:
 		cout << name << ": Choose wisely...\n";
 		cout << "1.Charmander - The fire type. A real hothead!\n";
 		cout << "2.Bulbasaur - The grass type. Calm And collected!\n";
-		cout << "3.Squirtle - The Water type. Coolas as a cucumber!\n";
+		cout << "3.Squirtle - The Water type. Cool as as a cucumber!\n";
 
 		int choice;
 		cout << name << ": So, which one will it be? Enter the number of your choice:";
