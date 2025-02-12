@@ -13,11 +13,11 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\Common Practice Programms">
+      <UniqueIdentifier>{6e0aa455-e3cc-4ce4-b95d-a5b61513649e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="My C++ Programms.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,8 +45,14 @@
     <ClCompile Include="TheLegendaryConstructorsScroll.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Common_Programming_Practice.cpp">
+      <Filter>Source Files\Common Practice Programms</Filter>
+    </ClCompile>
+    <ClCompile Include="My C++ Programms.cpp">
+      <Filter>Source Files\Common Practice Programms</Filter>
+    </ClCompile>
     <ClCompile Include="MyPracticeProgram.cpp">
-      <Filter>Source Files</Filter>
+      <Filter>Source Files\Common Practice Programms</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
