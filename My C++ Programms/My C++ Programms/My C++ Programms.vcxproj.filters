@@ -16,6 +16,9 @@
     <Filter Include="Source Files\Common Practice Programms">
       <UniqueIdentifier>{6e0aa455-e3cc-4ce4-b95d-a5b61513649e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source Files\Code Organization">
+      <UniqueIdentifier>{be45b923-29e3-4de4-bb76-016de36ce034}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Main.cpp">
@@ -54,8 +57,21 @@
     <ClCompile Include="MyPracticeProgram.cpp">
       <Filter>Source Files\Common Practice Programms</Filter>
     </ClCompile>
-    <ClCompile Include="HeaderFile.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="MainMethodFile_ForHeader.cpp">
+      <Filter>Source Files\Code Organization</Filter>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="header.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My C++ Programms.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
   </ItemGroup>
 </Project>

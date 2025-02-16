@@ -132,7 +132,7 @@
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
     <ClCompile Include="Common_Programming_Practice.cpp" />
     <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
-    <ClCompile Include="HeaderFile.cpp" />
+    <ClCompile Include="MainMethodFile_ForHeader.cpp" />
     <ClCompile Include="Main.cpp" />
     <ClCompile Include="My C++ Programms.cpp" />
     <ClCompile Include="MyPracticeProgram.cpp" />
@@ -140,6 +140,13 @@
     <ClCompile Include="PokemonSelection.cpp" />
     <ClCompile Include="TheGreatTypeBattle.cpp" />
     <ClCompile Include="TheLegendaryConstructorsScroll.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="header.hpp" />
+    <ClInclude Include="resource.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="My C++ Programms.rc" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
