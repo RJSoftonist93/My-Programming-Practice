@@ -54,5 +54,8 @@
     <ClCompile Include="MyPracticeProgram.cpp">
       <Filter>Source Files\Common Practice Programms</Filter>
     </ClCompile>
+    <ClCompile Include="HeaderFile.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
