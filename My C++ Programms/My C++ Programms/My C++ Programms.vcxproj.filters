@@ -45,9 +45,6 @@
     <ClCompile Include="CallByReferenceNCallByValue.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="TheLegendaryConstructorsScroll.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Common_Programming_Practice.cpp">
       <Filter>Source Files\Common Practice Programms</Filter>
     </ClCompile>
@@ -60,6 +57,12 @@
     <ClCompile Include="MainMethodFile_ForHeader.cpp">
       <Filter>Source Files\Code Organization</Filter>
     </ClCompile>
+    <ClCompile Include="TheLegendaryConstructorsScroll.cpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="resource.h">
@@ -67,6 +70,15 @@
     </ClInclude>
     <ClInclude Include="header.hpp">
       <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonType.hpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="PokemonChoice.hpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.hpp">
+      <Filter>Source Files\Code Organization</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

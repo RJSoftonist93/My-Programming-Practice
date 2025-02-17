@@ -140,10 +140,14 @@
     <ClCompile Include="PokemonSelection.cpp" />
     <ClCompile Include="TheGreatTypeBattle.cpp" />
     <ClCompile Include="TheLegendaryConstructorsScroll.cpp" />
+    <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.hpp" />
+    <ClInclude Include="PokemonChoice.hpp" />
+    <ClInclude Include="PokemonType.hpp" />
     <ClInclude Include="resource.h" />
+    <ClInclude Include="Utility.hpp" />
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="My C++ Programms.rc" />
