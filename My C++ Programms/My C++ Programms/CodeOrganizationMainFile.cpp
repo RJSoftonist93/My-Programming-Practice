@@ -1,9 +1,9 @@
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
-#include "Player.hpp"
-#include "limits"  // Include this header to use numeric_limits
+
 #include<iostream>
+#include "limits"  // Include this header to use numeric_limit
 #include <string>
 using namespace std;
 
@@ -79,6 +79,7 @@ class Pokemon
 			cout << name << "attack with a powerful move!\n";
 		}
 };
+#include "Player.hpp"
 
 //player class
 //class Player

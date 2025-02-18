@@ -57,10 +57,13 @@
     <ClCompile Include="MainMethodFile_ForHeader.cpp">
       <Filter>Source Files\Code Organization</Filter>
     </ClCompile>
-    <ClCompile Include="TheLegendaryConstructorsScroll.cpp">
+    <ClCompile Include="CodeOrganizationMainFile.cpp">
       <Filter>Source Files\Code Organization</Filter>
     </ClCompile>
     <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
       <Filter>Source Files\Code Organization</Filter>
     </ClCompile>
   </ItemGroup>
@@ -78,6 +81,9 @@
       <Filter>Source Files\Code Organization</Filter>
     </ClInclude>
     <ClInclude Include="Utility.hpp">
+      <Filter>Source Files\Code Organization</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.hpp">
       <Filter>Source Files\Code Organization</Filter>
     </ClInclude>
   </ItemGroup>

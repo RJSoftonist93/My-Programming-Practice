@@ -137,13 +137,15 @@
     <ClCompile Include="My C++ Programms.cpp" />
     <ClCompile Include="MyPracticeProgram.cpp" />
     <ClCompile Include="MysteriousRoomsAdventure.cpp" />
+    <ClCompile Include="Player.cpp" />
     <ClCompile Include="PokemonSelection.cpp" />
     <ClCompile Include="TheGreatTypeBattle.cpp" />
-    <ClCompile Include="TheLegendaryConstructorsScroll.cpp" />
+    <ClCompile Include="CodeOrganizationMainFile.cpp" />
     <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.hpp" />
+    <ClInclude Include="Player.hpp" />
     <ClInclude Include="PokemonChoice.hpp" />
     <ClInclude Include="PokemonType.hpp" />
     <ClInclude Include="resource.h" />
