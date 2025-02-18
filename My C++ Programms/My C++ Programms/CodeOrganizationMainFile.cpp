@@ -1,6 +1,7 @@
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
+#include "Player.hpp"
 #include "limits"  // Include this header to use numeric_limits
 #include<iostream>
 #include <string>
@@ -80,47 +81,47 @@ class Pokemon
 };
 
 //player class
-class Player
-{
-public:
-	string name;
-	Pokemon chosenPokemon;
-
-	//Default constructor
-	Player()
-	{
-		name = "Trainer";
-		chosenPokemon = Pokemon();
-	}
-
-	//parameterized constructor
-	Player(string p_name, Pokemon p_chosenPokemon)
-	{
-		name = p_name;
-		chosenPokemon = p_chosenPokemon;
-	}
-
-	void choosePokemon(int choice)
-	{
-		switch ((PokemonChoice)choice)
-		{
-		case PokemonChoice::Charmander:
-				chosenPokemon = Pokemon("Charmander", PokemonType::Fire, 100);
-				break;
-		case PokemonChoice::Bulbasaur:
-			chosenPokemon = Pokemon("Bubasaur", PokemonType::Grass, 100);
-			break;
-		case PokemonChoice::Squirtle:
-			chosenPokemon = Pokemon("Squirtle", PokemonType::Water, 100);
-			break;
-		default:
-			chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100);
-			break;
-		}
-		cout << "Player " << name << " chose " << chosenPokemon.name << "!\n";
-		Utility::WaitForEnter(); //wait Untill you press Enter key
-	}
-};
+//class Player
+//{
+//public:
+//	string name;
+//	Pokemon chosenPokemon;
+//
+//	//Default constructor
+//	Player()
+//	{
+//		name = "Trainer";
+//		chosenPokemon = Pokemon();
+//	}
+//
+//	//parameterized constructor
+//	Player(string p_name, Pokemon p_chosenPokemon)
+//	{
+//		name = p_name;
+//		chosenPokemon = p_chosenPokemon;
+//	}
+//
+//	void choosePokemon(int choice)
+//	{
+//		switch ((PokemonChoice)choice)
+//		{
+//		case PokemonChoice::Charmander:
+//				chosenPokemon = Pokemon("Charmander", PokemonType::Fire, 100);
+//				break;
+//		case PokemonChoice::Bulbasaur:
+//			chosenPokemon = Pokemon("Bubasaur", PokemonType::Grass, 100);
+//			break;
+//		case PokemonChoice::Squirtle:
+//			chosenPokemon = Pokemon("Squirtle", PokemonType::Water, 100);
+//			break;
+//		default:
+//			chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100);
+//			break;
+//		}
+//		cout << "Player " << name << " chose " << chosenPokemon.name << "!\n";
+//		Utility::WaitForEnter(); //wait Untill you press Enter key
+//	}
+//};
 //professor Oak class defination
 class ProfessorOak
 {
