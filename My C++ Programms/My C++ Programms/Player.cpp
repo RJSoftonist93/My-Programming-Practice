@@ -1,4 +1,7 @@
 // Player.cpp
+#include "PokemonType.hpp"
+#include "PokemonChoice.hpp"
+#include "Utility.hpp"
 #include "Player.hpp"
 #include "iostream"
 #include "CodeOrganizationMainFile.cpp"
