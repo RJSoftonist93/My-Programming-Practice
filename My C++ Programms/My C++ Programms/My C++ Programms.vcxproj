@@ -140,6 +140,7 @@
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="PokemonSelection.cpp" />
+    <ClCompile Include="ProfessorOak.cpp" />
     <ClCompile Include="TheGreatTypeBattle.cpp" />
     <ClCompile Include="CodeOrganizationMainFile.cpp" />
     <ClCompile Include="Utility.cpp" />
@@ -150,6 +151,7 @@
     <ClInclude Include="Pokemon.hpp" />
     <ClInclude Include="PokemonChoice.hpp" />
     <ClInclude Include="PokemonType.hpp" />
+    <ClInclude Include="ProfessorOak.hpp" />
     <ClInclude Include="resource.h" />
     <ClInclude Include="Utility.hpp" />
   </ItemGroup>
