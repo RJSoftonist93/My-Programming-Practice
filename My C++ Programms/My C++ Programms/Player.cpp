@@ -1,10 +1,12 @@
 // Player.cpp
+#pragma once
+#include "Player.hpp"
 #include "PokemonType.hpp"
 #include "PokemonChoice.hpp"
 #include "Utility.hpp"
-#include "Player.hpp"
 #include "iostream"
-#include "CodeOrganizationMainFile.cpp"
+
+//#include "CodeOrganizationMainFile.cpp"
 using namespace std;
 
 Player::Player() {

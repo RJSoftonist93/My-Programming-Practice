@@ -8,6 +8,7 @@
 //};
 
 // Define an enum for Pokemon types
+#pragma once
 enum class PokemonType
 {
 	Fire,

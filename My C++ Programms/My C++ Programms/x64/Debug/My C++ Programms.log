@@ -1,110 +1,30 @@
 ﻿  Player.cpp
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.hpp(8,13): error C3646: 'chosenPokemon': unknown override specifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.hpp(11,27): error C2061: syntax error: identifier 'Pokemon'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\PokemonChoice.hpp(10,12): error C2011: 'PokemonChoice': 'enum' type redefinition
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\PokemonType.hpp(11,12): error C2011: 'PokemonType': 'enum' type redefinition
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Utility.hpp(2,7): error C2011: 'Utility': 'class' type redefinition
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(55,24): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(55,24): error C2065: 'Normal': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.hpp(5,7): error C2011: 'Player': 'class' type redefinition
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(140,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(140,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(142,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(142,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(144,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(144,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(150,16): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(150,3): error C2672: 'getline': no matching overloaded function found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(151,30): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(152,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(152,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(154,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(154,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(158,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(158,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(168,3): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(169,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(169,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(175,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(175,12): error C3861: 'ClearConsole': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(176,33): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(177,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(177,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(179,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(179,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(181,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(181,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(183,19): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(184,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(184,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(185,67): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(186,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(186,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(188,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(188,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(190,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(190,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(191,19): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(192,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(192,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(194,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(194,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(197,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(197,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(198,19): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(199,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(199,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(202,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(202,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(204,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(204,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(217,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(217,12): error C3861: 'ClearConsole': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(219,51): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(266,12): error C2027: use of undefined type 'Utility'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(266,12): error C3861: 'WaitForEnter': identifier not found
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(268,25): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(274,42): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(274,42): error C2065: 'Electric': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(278,9): error C2079: 'player' uses undefined class 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(278,15): error C2440: 'initializing': cannot convert from 'initializer list' to 'int'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(281,12): error C2664: 'void ProfessorOak::greetPlayer(Player &)': cannot convert argument 1 from 'int' to 'Player &'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(282,12): error C2664: 'void ProfessorOak::offerPokemonChoices(Player &)': cannot convert argument 1 from 'int' to 'Player &'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(285,12): error C2664: 'void ProfessorOak::explainMainQuest(Player &)': cannot convert argument 1 from 'int' to 'Player &'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(288,2): error C2664: 'void gameLoop(Player &)': cannot convert argument 1 from 'int' to 'Player &'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(10,9): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(10,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(11,5): error C2065: 'name': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(12,5): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(13,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(15,9): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(15,9): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(16,5): error C2065: 'name': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(17,5): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(18,1): warning C4508: '{ctor}': function should return a value; 'void' return type assumed
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(20,14): error C2027: use of undefined type 'Player'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(22,25): error C2027: use of undefined type 'PokemonChoice'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(22,25): error C2065: 'Charmander': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(22,25): error C2131: expression did not evaluate to a constant
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(23,9): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(23,60): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(23,60): error C2065: 'Fire': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(25,25): error C2027: use of undefined type 'PokemonChoice'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(25,25): error C2065: 'Bulbasaur': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(25,25): error C2131: expression did not evaluate to a constant
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(26,9): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(26,59): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(26,59): error C2065: 'Grass': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(28,25): error C2027: use of undefined type 'PokemonChoice'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(28,25): error C2065: 'Squirtle': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(28,25): error C2131: expression did not evaluate to a constant
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(29,9): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(29,58): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(29,58): error C2065: 'Water': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(32,9): error C2065: 'chosenPokemon': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(32,57): error C2027: use of undefined type 'PokemonType'
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(32,57): error C2065: 'Electric': undeclared identifier
-E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\Player.cpp(32,57): error C1003: error count exceeds 100; stopping compilation
   CodeOrganizationMainFile.cpp
+  Utility.cpp
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(139,19): error C2061: syntax error: identifier 'Player'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(149,27): error C2061: syntax error: identifier 'Player'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(175,24): error C2061: syntax error: identifier 'Player'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(152,16): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(152,3): error C2672: 'getline': no matching overloaded function found
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(153,30): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(170,3): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(178,33): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(185,19): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(187,67): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(193,19): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(200,19): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(211,6): error C2182: 'gameLoop': this use of 'void' is not valid
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(211,15): error C2065: 'Player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(211,23): error C2065: 'player': undeclared identifier
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(212,1): error C2143: syntax error: missing ';' before '{'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(216,2): error C2059: syntax error: 'while'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(217,2): error C2143: syntax error: missing ';' before '{'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(217,2): error C2447: '{': missing function header (old-style formal list?)
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(270,7): error C2143: syntax error: missing ';' before '<<'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(270,2): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(270,7): error C2059: syntax error: '<<'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(271,1): error C2059: syntax error: '}'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(271,1): error C2143: syntax error: missing ';' before '}'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(274,1): error C2143: syntax error: missing ';' before '{'
+E:\VR Dev\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Programms\CodeOrganizationMainFile.cpp(274,1): error C2447: '{': missing function header (old-style formal list?)
   Generating Code...

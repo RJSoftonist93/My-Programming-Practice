@@ -1,6 +1,8 @@
+#pragma once
 #include "PokemonChoice.hpp"
 #include "PokemonType.hpp"
 #include "Utility.hpp"
+
 //#include "Player.hpp"
 
 #include<iostream>
@@ -42,45 +44,45 @@ using namespace std;
 //	Normal
 //};
 
-class Pokemon
-{
-	public:
-		string name;
-		PokemonType type;
-		int health;
+//class Pokemon
+//{
+//	public:
+//		string name;
+//		PokemonType type;
+//		int health;
+//
+//		Pokemon()
+//		{
+//			name = "Unknown";
+//			type = PokemonType::Normal;
+//			health = 50;
+//		}
+//		//parameterized constructor
+//		Pokemon(string p_name, PokemonType p_type, int p_health)
+//		{
+//			name = p_name;
+//			type = p_type;
+//			health = p_health;
+//		}
+//
+//		//copy constructor
+//		Pokemon(const Pokemon& other)
+//		{
+//			name = other.name;
+//			type = other.type;
+//			health = other.health;
+//		}
+//		//Destructor
+//		~Pokemon()
+//		{
+//			cout << "data is deleted & related memory is free now\n";
+//		}
+//		void attack()
+//		{
+//			cout << name << "attack with a powerful move!\n";
+//		}
+//};
 
-		Pokemon()
-		{
-			name = "Unknown";
-			type = PokemonType::Normal;
-			health = 50;
-		}
-		//parameterized constructor
-		Pokemon(string p_name, PokemonType p_type, int p_health)
-		{
-			name = p_name;
-			type = p_type;
-			health = p_health;
-		}
-
-		//copy constructor
-		Pokemon(const Pokemon& other)
-		{
-			name = other.name;
-			type = other.type;
-			health = other.health;
-		}
-		//Destructor
-		~Pokemon()
-		{
-			cout << "data is deleted & related memory is free now\n";
-		}
-		void attack()
-		{
-			cout << name << "attack with a powerful move!\n";
-		}
-};
-#include "Player.hpp"
 
 //player class
 //class Player

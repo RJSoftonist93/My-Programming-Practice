@@ -138,6 +138,7 @@
     <ClCompile Include="MyPracticeProgram.cpp" />
     <ClCompile Include="MysteriousRoomsAdventure.cpp" />
     <ClCompile Include="Player.cpp" />
+    <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="PokemonSelection.cpp" />
     <ClCompile Include="TheGreatTypeBattle.cpp" />
     <ClCompile Include="CodeOrganizationMainFile.cpp" />
@@ -146,6 +147,7 @@
   <ItemGroup>
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Player.hpp" />
+    <ClInclude Include="Pokemon.hpp" />
     <ClInclude Include="PokemonChoice.hpp" />
     <ClInclude Include="PokemonType.hpp" />
     <ClInclude Include="resource.h" />

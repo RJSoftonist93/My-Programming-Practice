@@ -1,5 +1,8 @@
 // Player.h
+#pragma once
+#include "Pokemon.hpp"
 #include <string>
+//#include "Pokemon.hpp";
 using namespace std;
 
 class Player {

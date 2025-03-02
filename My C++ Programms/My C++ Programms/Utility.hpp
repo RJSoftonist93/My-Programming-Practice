@@ -1,4 +1,5 @@
-// Utility.h
+// Utility.hpp
+#pragma once
 class Utility {
 public:
     static void ClearConsole();
