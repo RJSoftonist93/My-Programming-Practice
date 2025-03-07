@@ -21,8 +21,8 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>17.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{f332447c-e7c0-4fab-afb4-c32b12b724f8}</ProjectGuid>
-    <RootNamespace>Pokemon2</RootNamespace>
+    <ProjectGuid>{0a8f282b-0bd7-4dbd-aca9-42982c36b2b7}</ProjectGuid>
+    <RootNamespace>MyCLearning</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
@@ -127,13 +127,27 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="CallByReferenceNCallByValue.cpp" />
+    <ClCompile Include="ChoosePokemonWithEnum.cpp" />
+    <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
+    <ClCompile Include="CodeOrganizationMainFile.cpp" />
+    <ClCompile Include="Common_Programming_Practice.cpp" />
+    <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
     <ClCompile Include="Main.cpp" />
+    <ClCompile Include="MainMethodFile_ForHeader.cpp" />
+    <ClCompile Include="Main_Old.cpp" />
+    <ClCompile Include="My C++ Learning.cpp" />
+    <ClCompile Include="My C++ Programms.cpp" />
+    <ClCompile Include="MyPracticeProgram.cpp" />
+    <ClCompile Include="MysteriousRoomsAdventure.cpp" />
     <ClCompile Include="Player.cpp" />
     <ClCompile Include="Pokemon.cpp" />
     <ClCompile Include="ProfessorOak.cpp" />
+    <ClCompile Include="TheGreatTypeBattle.cpp" />
     <ClCompile Include="Utility.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="header.hpp" />
     <ClInclude Include="Player.hpp" />
     <ClInclude Include="Pokemon.hpp" />
     <ClInclude Include="PokemonChoice.hpp" />
