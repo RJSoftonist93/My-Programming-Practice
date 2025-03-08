@@ -45,9 +45,6 @@
     <ClCompile Include="MainMethodFile_ForHeader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="My C++ Programms.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="MyPracticeProgram.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>

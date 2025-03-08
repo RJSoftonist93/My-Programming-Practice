@@ -1,23 +1,2 @@
-﻿  CallByReferenceNCallByValue.cpp
-  ChoosePokemonWithEnum.cpp
-  ChoosePokemonWithEnumClass.cpp
-  CodeOrganizationMainFile.cpp
-  Common_Programming_Practice.cpp
-  CreatingClasses&Objects.cpp
-  Main.cpp
-  MainMethodFile_ForHeader.cpp
-  Main_Old.cpp
-  My C++ Learning.cpp
-  My C++ Programms.cpp
-  MyPracticeProgram.cpp
-  MysteriousRoomsAdventure.cpp
-  Player.cpp
-  Pokemon.cpp
-  ProfessorOak.cpp
-  TheGreatTypeBattle.cpp
-  Utility.cpp
-  Generating Code...
-Main.obj : error LNK2005: "void __cdecl gameLoop(class Player &)" (?gameLoop@@YAXAEAVPlayer@@@Z) already defined in CodeOrganizationMainFile.obj
-Main.obj : error LNK2005: main already defined in CodeOrganizationMainFile.obj
-My C++ Learning.obj : error LNK2005: main already defined in CodeOrganizationMainFile.obj
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\x64\Debug\My C++ Learning.exe : fatal error LNK1169: one or more multiply defined symbols found
+﻿  Utility.cpp
+  My C++ Learning.vcxproj -> E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\x64\Debug\My C++ Learning.exe

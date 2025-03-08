@@ -137,7 +137,6 @@
     <ClCompile Include="MainMethodFile_ForHeader.cpp" />
     <ClCompile Include="Main_Old.cpp" />
     <ClCompile Include="My C++ Learning.cpp" />
-    <ClCompile Include="My C++ Programms.cpp" />
     <ClCompile Include="MyPracticeProgram.cpp" />
     <ClCompile Include="MysteriousRoomsAdventure.cpp" />
     <ClCompile Include="Learning with Pokemon Game\Player.cpp" />

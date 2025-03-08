@@ -2,7 +2,7 @@
 #include<iostream>
 #include "limits"  // Include this header to use numeric_limit
 #include <string>
-#include "Pokemon.hpp"
+//#include "Pokemon.hpp"
 #include "ProfessorOak.hpp"
 using namespace std;
 
