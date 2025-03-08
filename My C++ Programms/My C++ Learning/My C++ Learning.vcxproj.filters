@@ -27,7 +27,7 @@
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="CodeOrganizationMainFile.cpp">
+    <ClCompile Include="Learning with Pokemon Game\CodeOrganizationMainFile.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Common_Programming_Practice.cpp">
@@ -36,7 +36,7 @@
     <ClCompile Include="CreatingClasses&amp;Objects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Main.cpp">
+    <ClCompile Include="Learning with Pokemon Game\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Main_Old.cpp">
@@ -54,19 +54,19 @@
     <ClCompile Include="MysteriousRoomsAdventure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Player.cpp">
+    <ClCompile Include="Learning with Pokemon Game\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Pokemon.cpp">
+    <ClCompile Include="Learning with Pokemon Game\Pokemon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="ProfessorOak.cpp">
+    <ClCompile Include="Learning with Pokemon Game\ProfessorOak.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TheGreatTypeBattle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Utility.cpp">
+    <ClCompile Include="Learning with Pokemon Game\Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,22 +74,22 @@
     <ClInclude Include="header.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Player.hpp">
+    <ClInclude Include="Learning with Pokemon Game\Player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Pokemon.hpp">
+    <ClInclude Include="Learning with Pokemon Game\Pokemon.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PokemonChoice.hpp">
+    <ClInclude Include="Learning with Pokemon Game\PokemonChoice.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="PokemonType.hpp">
+    <ClInclude Include="Learning with Pokemon Game\PokemonType.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="ProfessorOak.hpp">
+    <ClInclude Include="Learning with Pokemon Game\ProfessorOak.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Utility.hpp">
+    <ClInclude Include="Learning with Pokemon Game\Utility.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
