@@ -6,6 +6,23 @@
 #include <iostream>
 using namespace std;
 
+Grass forestGrass = {
+    "Forest",
+    {{"Zubat", PokemonType::Poison, 30}, { "Pidgey", PokemonType::Normal, 40 }, {"Caterpie", PokemonType::Bug, 35}},
+    70
+};
+
+Grass caveGrass = {
+    "Cave",
+    {{"Zubat", PokemonType::Poison, 30}, {"Geodude", PokemonType::Rock, 50}},
+    80
+};
+
+//just added for practice by me not neccessory the following one
+Grass RiverSwimmer = {
+    "River", {{"Rupesh", PokemonType::Bug, 40}, {"Geodude", PokemonType::Fire, 90}}, 99
+};
+
 Game::Game() {
 
 }
