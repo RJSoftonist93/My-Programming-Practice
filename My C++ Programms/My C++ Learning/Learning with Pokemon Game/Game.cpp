@@ -20,7 +20,7 @@ Grass caveGrass = {
 
 //just added for practice by me not neccessory the following one
 Grass RiverSwimmer = {
-    "River", {{"Rupesh", PokemonType::Bug, 40}, {"Geodude", PokemonType::Fire, 90}}, 99
+    "River", {{"Rupesh", PokemonType::Water, 40}, {"Geodude", PokemonType::Fire, 90}}, 99
 };
 
 Game::Game() {

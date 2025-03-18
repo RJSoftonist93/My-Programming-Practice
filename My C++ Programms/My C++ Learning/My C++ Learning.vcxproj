@@ -133,6 +133,7 @@
     <ClCompile Include="Learning with Pokemon Game\CodeOrganizationMainFile.cpp" />
     <ClCompile Include="Common_Programming_Practice.cpp" />
     <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\Game.cpp" />
     <ClCompile Include="Learning with Pokemon Game\Main.cpp" />
     <ClCompile Include="MainMethodFile_ForHeader.cpp" />
     <ClCompile Include="Main_Old.cpp" />
@@ -147,6 +148,8 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\Game.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\Grass.hpp" />
     <ClInclude Include="Learning with Pokemon Game\Player.hpp" />
     <ClInclude Include="Learning with Pokemon Game\Pokemon.hpp" />
     <ClInclude Include="Learning with Pokemon Game\PokemonChoice.hpp" />
