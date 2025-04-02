@@ -1,9 +1,7 @@
-#include "Player.hpp"
-#include "Game.hpp"
-#include "Utility.hpp"
-#include "WildEncounterManager.hpp"
 
 #include <iostream>
+#include "Game.hpp"
+#include "Player.hpp"
 using namespace std;
 
 Grass forestGrass = {
