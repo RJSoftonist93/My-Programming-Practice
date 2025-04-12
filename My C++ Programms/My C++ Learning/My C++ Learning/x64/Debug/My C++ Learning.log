@@ -1,2 +1,7 @@
-﻿  Utility.cpp
+﻿  Game.cpp
+  Main.cpp
+  WildEncounterManager.cpp
+  Vectors.cpp
+  Generating Code...
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\WildEncounterManager.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
   My C++ Learning.vcxproj -> E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\x64\Debug\My C++ Learning.exe

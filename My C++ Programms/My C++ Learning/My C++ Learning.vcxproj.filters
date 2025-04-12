@@ -27,9 +27,6 @@
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\CodeOrganizationMainFile.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="Common_Programming_Practice.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -37,12 +34,6 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Learning with Pokemon Game\Main.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="Main_Old.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
-    <ClCompile Include="MainMethodFile_ForHeader.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MyPracticeProgram.cpp">
@@ -66,6 +57,15 @@
     <ClCompile Include="Learning with Pokemon Game\Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\Game.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Vectors.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\WildEncounterManager.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.hpp">
@@ -87,6 +87,15 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Learning with Pokemon Game\Utility.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\Game.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\Grass.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\WildEncounterManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
