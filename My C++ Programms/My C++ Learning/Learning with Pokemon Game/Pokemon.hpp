@@ -10,6 +10,7 @@ public:
     string name;
     PokemonType type;
     int health;
+    int maxHealth;
 
     // Default constructor
     Pokemon();
@@ -20,8 +21,11 @@ public:
     // Copy constructor
     Pokemon(const Pokemon& other);
 
+    void takeDamage(int damage);
+    bool isFainted() const;
+
     // Destructor
     ~Pokemon();
 
-    void attack();
+    void attack(Pokemon &target);
 };

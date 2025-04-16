@@ -132,6 +132,7 @@
     <ClCompile Include="ChoosePokemonWithEnumClass.cpp" />
     <ClCompile Include="Common_Programming_Practice.cpp" />
     <ClCompile Include="CreatingClasses&amp;Objects.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\BattleManager.cpp" />
     <ClCompile Include="Learning with Pokemon Game\Game.cpp" />
     <ClCompile Include="Learning with Pokemon Game\Main.cpp" />
     <ClCompile Include="Learning with Pokemon Game\WildEncounterManager.cpp" />

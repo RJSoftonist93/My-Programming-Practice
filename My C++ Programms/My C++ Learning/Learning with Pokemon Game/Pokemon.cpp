@@ -16,6 +16,21 @@ Pokemon::~Pokemon() {
     // Destructor logic (if any) goes here
 }
 
-void Pokemon::attack() {
-    cout << name << " attacks with a powerful move!\n";
+void Pokemon::attack(Pokemon &target) {
+    //cout << name << " attacks with a powerful move!\n";
+    int damage = 10;
+    cout << name << " attack " << target.name << " for " << damage << " damage!\\n";
+    target.takeDamage(damage);
+}
+void Pokemon::takeDamage(int damage)
+{
+    health -= damage;
+    if (health < 0)
+    {
+        health = 0;
+    }
+}
+bool Pokemon::isFainted() const
+{
+    return health <= 0;
 }
