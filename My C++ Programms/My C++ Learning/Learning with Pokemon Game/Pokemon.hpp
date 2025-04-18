@@ -11,12 +11,13 @@ public:
     PokemonType type;
     int health;
     int maxHealth;
+    int attackPower;
 
     // Default constructor
     Pokemon();
 
     // Parameterized constructor
-    Pokemon(string p_name, PokemonType p_type, int p_health);
+    Pokemon(string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower);
 
     // Copy constructor
     Pokemon(const Pokemon& other);
@@ -28,4 +29,5 @@ public:
     ~Pokemon();
 
     void attack(Pokemon &target);
+    void Heal();
 };
