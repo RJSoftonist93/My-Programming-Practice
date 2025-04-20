@@ -11,7 +11,7 @@ int main()
 {
    
 	//creating pokemon & player objects
-	Pokemon Pikachu("Pikachu", PokemonType::Electric, 100); //parameterized constructor
+	Pokemon Pikachu("Pikachu", PokemonType::Electric, 100, 10); //parameterized constructor
 
 	//main flow of the game
 	ProfessorOak professor("Professor Oak");

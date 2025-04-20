@@ -2,33 +2,28 @@
 #include <iostream>
 #include "Game.hpp"
 #include "Player.hpp"
+#include "Pokemon.hpp"
+#include "WildEncounterManager.hpp"
+#include "BattleManager.hpp"
 using namespace std;
 
-Grass forestGrass = {
+
+Game::Game() 
+{
+    forestGrass = {
     "Forest",
-    {{"Zubat", PokemonType::Poison, 30}, { "Pidgey", PokemonType::Normal, 40 }, {"Caterpie", PokemonType::Bug, 35}},
+    {Pokemon{"Zubat", PokemonType::Poison, 30, 10},
+    Pokemon{ "Pidgey", PokemonType::Normal, 40, 10 },
+    Pokemon{"Caterpie", PokemonType::Bug, 35, 10}},
     70
-};
-
-Grass caveGrass = {
-    "Cave",
-    {{"Zubat", PokemonType::Poison, 30}, {"Geodude", PokemonType::Rock, 50}},
-    80
-};
-
-//just added for practice by me not neccessory the following one
-Grass RiverSwimmer = {
-    "River", {{"Rupesh", PokemonType::Water, 40}, {"Geodude", PokemonType::Fire, 90}}, 99
-};
-
-Game::Game() {
-
+    };
 }
 
-void Game::gameLoop(Player& player) {
-
-    int choice;
+void Game::gameLoop(Player& player) 
+{
+    BattleManager battleManager;
     bool keepPlaying = true;
+    int choice;
 
     while (keepPlaying) {
         // Clear console before showing options
@@ -51,9 +46,12 @@ void Game::gameLoop(Player& player) {
         case 1: {
             // Create a scope within case 1
             WildEncounterManager encounterManager;
-            Pokemon encounteredPokemon =
+            Pokemon wildPokemon =
                 encounterManager.getRandomPokemonFromGrass(forestGrass);
-            cout << "A wild " << encounteredPokemon.name << " appeared!\n";
+            battleManager.startBattle(player, wildPokemon);
+            //Pokemon encounteredPokemon =
+            //    encounterManager.getRandomPokemonFromGrass(forestGrass);
+            //cout << "A wild " << encounteredPokemon.name << " appeared!\n";
             break;
         }
         case 2: {

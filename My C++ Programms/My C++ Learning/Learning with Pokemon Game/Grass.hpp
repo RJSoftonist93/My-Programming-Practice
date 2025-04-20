@@ -1,9 +1,9 @@
 #pragma once
 #include<string>
 #include<vector>
-//#include "Pokemon.hpp"
+#include "Pokemon.hpp"
 using namespace std;
-class Pokemon;
+//class Pokemon;
 struct Grass
 {
     string EnvironmentType; // Example: "Forest", "Cave", "Riverbank"

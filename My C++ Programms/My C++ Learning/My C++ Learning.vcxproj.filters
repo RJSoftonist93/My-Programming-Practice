@@ -101,5 +101,8 @@
     <ClInclude Include="Learning with Pokemon Game\WildEncounterManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\BattleManager.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
