@@ -1,6 +1,6 @@
 // Player.cpp
 #pragma once
-#include "Player.hpp"
+#include "../../../include/Character/Player/Player.hpp"
 
 //#include "CodeOrganizationMainFile.cpp"
 using namespace std;

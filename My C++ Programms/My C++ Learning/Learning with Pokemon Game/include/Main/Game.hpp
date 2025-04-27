@@ -1,6 +1,6 @@
 #pragma once
-#include "Grass.hpp"
-#include "Utility.hpp"
+#include "../../include/Pokemon/Grass.hpp"
+#include "../../include/Utility/Utility.hpp"
 
 class Player;
 class Game {

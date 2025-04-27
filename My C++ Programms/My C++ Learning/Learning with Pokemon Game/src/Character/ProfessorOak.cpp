@@ -1,4 +1,4 @@
-#include "ProfessorOak.hpp"
+#include "../../include/Character/ProfessorOak.hpp"
 ProfessorOak::ProfessorOak(string p_name)
 {
     name = p_name;

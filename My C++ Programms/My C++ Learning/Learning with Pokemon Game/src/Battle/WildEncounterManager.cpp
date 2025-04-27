@@ -1,4 +1,4 @@
-#include "WildEncounterManager.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
 #include <cstdlib> // For rand()
 #include <ctime>   // For time()
 

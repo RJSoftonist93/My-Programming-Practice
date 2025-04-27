@@ -33,7 +33,7 @@
     <ClCompile Include="CreatingClasses&amp;Objects.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\Main.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Main\Main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="MyPracticeProgram.cpp">
@@ -42,31 +42,31 @@
     <ClCompile Include="MysteriousRoomsAdventure.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\Player.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Character\Player\Player.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\Pokemon.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemon.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\ProfessorOak.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Character\ProfessorOak.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="TheGreatTypeBattle.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\Utility.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Utility\Utility.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\Game.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Main\Game.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="Vectors.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\WildEncounterManager.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\BattleManager.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Battle\BattleManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
@@ -74,37 +74,37 @@
     <ClInclude Include="header.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\Player.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Character\Player\Player.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\Pokemon.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemon.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\PokemonChoice.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\PokemonChoice.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\PokemonType.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\PokemonType.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\ProfessorOak.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Character\ProfessorOak.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\Utility.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Utility\Utility.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\Game.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Main\Game.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\Grass.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Grass.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\WildEncounterManager.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Battle\WildEncounterManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\BattleManager.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Battle\BattleManager.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\BattleState.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Battle\BattleState.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

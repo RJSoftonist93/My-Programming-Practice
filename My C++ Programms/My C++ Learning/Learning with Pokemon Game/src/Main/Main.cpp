@@ -1,10 +1,10 @@
 #include<iostream>
 #include "limits"  // Include this header to use numeric_limit
 #include <string>
-#include "Pokemon.hpp"
-#include "ProfessorOak.hpp"
-#include "Game.hpp"
-#include "Player.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include "../../include/Character/ProfessorOak.hpp"
+#include "../../include/Main/Game.hpp"
+#include "../../include/Character/Player/Player.hpp"
 using namespace std;
 
 int main()

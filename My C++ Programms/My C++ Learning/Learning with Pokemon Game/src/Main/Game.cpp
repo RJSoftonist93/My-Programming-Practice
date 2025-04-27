@@ -1,10 +1,10 @@
 
 #include <iostream>
-#include "Game.hpp"
-#include "Player.hpp"
-#include "Pokemon.hpp"
-#include "WildEncounterManager.hpp"
-#include "BattleManager.hpp"
+#include "../../include/Main/Game.hpp"
+#include "../../include/Character/Player/Player.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
+#include "../../include/Battle/BattleManager.hpp"
 using namespace std;
 
 

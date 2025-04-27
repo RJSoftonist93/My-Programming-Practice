@@ -1,5 +1,5 @@
 #pragma once
-#include "BattleManager.hpp"
+#include "../../include/Battle/BattleManager.hpp"
 #include <iostream>
 using namespace std;
 
