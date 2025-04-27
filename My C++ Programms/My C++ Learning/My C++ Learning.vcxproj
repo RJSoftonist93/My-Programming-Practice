@@ -149,6 +149,7 @@
   <ItemGroup>
     <ClInclude Include="header.hpp" />
     <ClInclude Include="Learning with Pokemon Game\BattleManager.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\BattleState.hpp" />
     <ClInclude Include="Learning with Pokemon Game\Game.hpp" />
     <ClInclude Include="Learning with Pokemon Game\Grass.hpp" />
     <ClInclude Include="Learning with Pokemon Game\Player.hpp" />
