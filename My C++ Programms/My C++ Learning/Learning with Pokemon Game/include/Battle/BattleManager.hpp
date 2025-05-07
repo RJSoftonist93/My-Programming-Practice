@@ -3,7 +3,11 @@
 #include "../../include/Pokemon/Pokemon.hpp"
 #include "../../include/Character/Player/Player.hpp"
 #include "../../include/Battle/BattleState.hpp"
+using namespace N_Player;
+using namespace N_Pokemon;
 
+namespace N_Battle
+{ 
 class BattleManager
 {
 public:
@@ -17,3 +21,4 @@ private:
 
     void updateBattleState();
 };
+}

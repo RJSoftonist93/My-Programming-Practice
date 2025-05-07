@@ -5,9 +5,15 @@
 #include "../../include/Pokemon/Pokemon.hpp"
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Battle/BattleManager.hpp"
+#include <string>
 using namespace std;
+using namespace N_Utility;
+using namespace N_Battle;
+using namespace N_Player;
+using namespace N_Pokemon;
 
-
+namespace N_Main
+{
 Game::Game() 
 {
     forestGrass = {
@@ -19,7 +25,7 @@ Game::Game()
     };
 }
 
-void Game::gameLoop(Player& player) 
+void Game::gameLoop(N_Player::Player& player)
 {
     BattleManager battleManager;
     bool keepPlaying = true;
@@ -92,4 +98,5 @@ void Game::gameLoop(Player& player)
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
+}
 }

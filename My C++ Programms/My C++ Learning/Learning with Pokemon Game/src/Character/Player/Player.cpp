@@ -4,7 +4,10 @@
 
 //#include "CodeOrganizationMainFile.cpp"
 using namespace std;
+using namespace N_Utility;
 
+namespace N_Player
+{
 Player::Player() {
     name = "Trainer";
     chosenPokemon = Pokemon(); // Using the default Pokemon constructor
@@ -32,4 +35,5 @@ void Player::choosePokemon(int choice) {
     }
     cout << "Player " << name << " chose " << chosenPokemon.name << "!\n";
     Utility::WaitForEnter(); // Wait for user to press Enter before proceeding
+}
 }

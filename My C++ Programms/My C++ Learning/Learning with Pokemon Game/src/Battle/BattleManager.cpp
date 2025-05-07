@@ -2,7 +2,10 @@
 #include "../../include/Battle/BattleManager.hpp"
 #include <iostream>
 using namespace std;
+using namespace N_Utility;
 
+namespace N_Battle
+{ 
     void BattleManager :: startBattle(Player &player, Pokemon &wildPokemon) //needed :: sign i.e. scope resolution operator to access data & methods from .hpp file
     {
         battleState.playerPokemon = &player.chosenPokemon;
@@ -70,3 +73,4 @@ using namespace std;
             battleState.battleOngoing = false;
         }
     }
+}

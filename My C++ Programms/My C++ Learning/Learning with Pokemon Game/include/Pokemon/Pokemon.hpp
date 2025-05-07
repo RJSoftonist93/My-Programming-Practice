@@ -5,6 +5,8 @@ using namespace std;
 //#include "PokemonType.hpp" //instead of the full file we are using forward declaratiion
 //enum PokemonType; //forward declaration
 
+namespace N_Pokemon
+{ 
 class Pokemon {
 public:
     string name;
@@ -31,3 +33,4 @@ public:
     void attack(Pokemon &target);
     void Heal();
 };
+}

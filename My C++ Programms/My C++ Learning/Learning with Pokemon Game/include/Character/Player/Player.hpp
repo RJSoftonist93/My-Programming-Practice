@@ -8,8 +8,10 @@
 
 //#include "Pokemon.hpp"; // for c++ .h is better or .hpp is better
 using namespace std;
+using namespace N_Pokemon;
 //class Pokemon;
-
+namespace N_Player
+{
 class Player {
 public:
     string name;
@@ -20,3 +22,4 @@ public:
 
     void choosePokemon(int choice); // Method to choose a Pokemon
 };
+}

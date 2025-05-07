@@ -2,7 +2,10 @@
 #include<iostream>
 #include <string>
 using namespace std;
+using namespace N_Player;
 
+namespace N_Character
+{ 
 //professor Oak class defination
 class ProfessorOak
 {
@@ -19,3 +22,4 @@ public:
     //main quest conversation method
     void explainMainQuest(Player& player);
 };
+}
