@@ -1,15 +1,17 @@
 // Player.h
 #pragma once
-#include "Pokemon.hpp"
+#include "../../../include/Pokemon/Pokemon.hpp"
 //#include "PokemonType.hpp"
-#include "PokemonChoice.hpp"
-#include "Utility.hpp"
+#include "../../../include/Pokemon/PokemonChoice.hpp"
+#include "../../../include/Utility/Utility.hpp"
 #include "iostream"
-#include <string>
+
 //#include "Pokemon.hpp"; // for c++ .h is better or .hpp is better
 using namespace std;
+using namespace N_Pokemon;
 //class Pokemon;
-
+namespace N_Player
+{
 class Player {
 public:
     string name;
@@ -20,3 +22,4 @@ public:
 
     void choosePokemon(int choice); // Method to choose a Pokemon
 };
+}

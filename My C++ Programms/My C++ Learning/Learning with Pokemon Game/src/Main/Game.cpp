@@ -1,34 +1,35 @@
 
 #include <iostream>
-#include "Game.hpp"
-#include "Player.hpp"
+#include "../../include/Main/Game.hpp"
+#include "../../include/Character/Player/Player.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include "../../include/Battle/WildEncounterManager.hpp"
+#include "../../include/Battle/BattleManager.hpp"
+#include <string>
 using namespace std;
+using namespace N_Utility;
+using namespace N_Battle;
+using namespace N_Player;
+using namespace N_Pokemon;
 
-Grass forestGrass = {
+namespace N_Main
+{
+Game::Game() 
+{
+    forestGrass = {
     "Forest",
-    {{"Zubat", PokemonType::Poison, 30}, { "Pidgey", PokemonType::Normal, 40 }, {"Caterpie", PokemonType::Bug, 35}},
+    {Pokemon{"Zubat", PokemonType::Poison, 30, 10},
+    Pokemon{ "Pidgey", PokemonType::Normal, 40, 10 },
+    Pokemon{"Caterpie", PokemonType::Bug, 35, 10}},
     70
-};
-
-Grass caveGrass = {
-    "Cave",
-    {{"Zubat", PokemonType::Poison, 30}, {"Geodude", PokemonType::Rock, 50}},
-    80
-};
-
-//just added for practice by me not neccessory the following one
-Grass RiverSwimmer = {
-    "River", {{"Rupesh", PokemonType::Water, 40}, {"Geodude", PokemonType::Fire, 90}}, 99
-};
-
-Game::Game() {
-
+    };
 }
 
-void Game::gameLoop(Player& player) {
-
-    int choice;
+void Game::gameLoop(N_Player::Player& player)
+{
+    BattleManager battleManager;
     bool keepPlaying = true;
+    int choice;
 
     while (keepPlaying) {
         // Clear console before showing options
@@ -51,9 +52,12 @@ void Game::gameLoop(Player& player) {
         case 1: {
             // Create a scope within case 1
             WildEncounterManager encounterManager;
-            Pokemon encounteredPokemon =
+            Pokemon wildPokemon =
                 encounterManager.getRandomPokemonFromGrass(forestGrass);
-            cout << "A wild " << encounteredPokemon.name << " appeared!\n";
+            battleManager.startBattle(player, wildPokemon);
+            //Pokemon encounteredPokemon =
+            //    encounterManager.getRandomPokemonFromGrass(forestGrass);
+            //cout << "A wild " << encounteredPokemon.name << " appeared!\n";
             break;
         }
         case 2: {
@@ -94,4 +98,5 @@ void Game::gameLoop(Player& player) {
     }
 
     cout << "Goodbye, " << player.name << "! Thanks for playing!\n";
+}
 }
