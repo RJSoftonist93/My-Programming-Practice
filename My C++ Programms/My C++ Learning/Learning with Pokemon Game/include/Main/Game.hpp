@@ -2,21 +2,18 @@
 #include "../../include/Pokemon/Grass.hpp"
 #include "../../include/Utility/Utility.hpp"
 #include "../../include/Pokemon/Pokemon.hpp"
+using namespace N_Pokemon;
 
 namespace N_Player
 {
     class Player;
 }
-//namespace N_Pokemon
-//{
-//
-//}
 
 namespace N_Main
 {
 class Game {
-    N_Pokemon::Pokemon wildPokemon;
-    N_Pokemon::Grass forestGrass;
+    Pokemon wildPokemon;
+    Grass forestGrass;
 
 public:
     Game();
