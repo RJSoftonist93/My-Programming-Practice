@@ -33,7 +33,7 @@ void Player::choosePokemon(int choice) {
         chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100, 10);
         break;
     }
-    cout << "Player " << name << " chose " << chosenPokemon.name << "!\n";
+    cout << "Player " << name << " chose " << chosenPokemon.GetName() << "!\n";
     Utility::WaitForEnter(); // Wait for user to press Enter before proceeding
 }
 }

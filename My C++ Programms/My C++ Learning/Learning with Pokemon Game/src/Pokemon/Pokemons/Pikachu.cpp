@@ -12,7 +12,7 @@ namespace N_Pokemon
 
         void Pikachu::thunderShock(Pokemon& target)
         {
-            cout << name << " uses Thunder Shock on " << target.name << "!\n";
+            cout << name << " uses Thunder Shock on " << target.GetName() << "!\n";
             target.takeDamage(20);
         }
     }

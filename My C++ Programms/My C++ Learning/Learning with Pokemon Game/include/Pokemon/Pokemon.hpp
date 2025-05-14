@@ -8,13 +8,36 @@ using namespace std;
 namespace N_Pokemon
 { 
 class Pokemon {
-public:
+protected:   //everything below is protected unless we add private: or public:
     string name;
     PokemonType type;
     int health;
     int maxHealth;
     int attackPower;
 
+
+public:  //everything below is public unless we add private: or protected:
+    //following are setter for accessing protected members of Pokemon class
+    string GetName()
+    {
+        return name;
+    }
+    PokemonType GetType()
+    {
+        return type;
+    }
+    int GetHealth()
+    {
+        return health;
+    }
+    int GetMaxHealth()
+    {
+        return maxHealth;
+    }
+    int GetAttackPower()
+    {
+        return attackPower;
+    }
     // Default constructor
     Pokemon();
 
