@@ -8,7 +8,8 @@ namespace N_Pokemon
 Pokemon::Pokemon() : name("Unknown"), type(PokemonType::Normal), health(50) {}
 
 // Parameterized constructor
-Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower) : name(p_name), type(p_type), health(p_maxHealth) {}
+Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower) 
+    : name(p_name), type(p_type), maxHealth(p_maxHealth), health(p_maxHealth), attackPower(p_attackPower) {}
 
 // Copy constructor
 Pokemon::Pokemon(const Pokemon& other) : name(other.name), type(other.type), health(other.health) {}

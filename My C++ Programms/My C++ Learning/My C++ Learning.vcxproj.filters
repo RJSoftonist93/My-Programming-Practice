@@ -69,6 +69,27 @@
     <ClCompile Include="Learning with Pokemon Game\src\Battle\BattleManager.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pikachu.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Zubat.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Caterpie.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pidgey.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Squirtle.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Charmander.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Balbasaur.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.hpp">
@@ -105,6 +126,18 @@
       <Filter>Header Files</Filter>
     </ClInclude>
     <ClInclude Include="Learning with Pokemon Game\include\Battle\BattleState.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Zubat.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Pidgey.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Caterpie.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

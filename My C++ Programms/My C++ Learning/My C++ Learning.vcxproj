@@ -136,6 +136,13 @@
     <ClCompile Include="Learning with Pokemon Game\src\Main\Game.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Main\Main.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Balbasaur.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Caterpie.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Charmander.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pidgey.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pikachu.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Squirtle.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Zubat.cpp" />
     <ClCompile Include="My C++ Learning.cpp" />
     <ClCompile Include="MyPracticeProgram.cpp" />
     <ClCompile Include="MysteriousRoomsAdventure.cpp" />
@@ -155,6 +162,10 @@
     <ClInclude Include="Learning with Pokemon Game\include\Character\Player\Player.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemon.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\PokemonChoice.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Caterpie.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Pidgey.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Zubat.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\PokemonType.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Character\ProfessorOak.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Utility\Utility.hpp" />
