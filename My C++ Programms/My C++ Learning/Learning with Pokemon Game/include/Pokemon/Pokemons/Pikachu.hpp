@@ -7,8 +7,9 @@ namespace N_Pokemon
     {
         class Pikachu : public Pokemon
         {
-        private:
+        public:
             Pikachu();
+        private:
             void thunderShock(Pokemon& target);
         };
     }
