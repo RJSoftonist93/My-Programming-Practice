@@ -140,5 +140,14 @@
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Caterpie.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Squirtle.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Balbasaur.hpp">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

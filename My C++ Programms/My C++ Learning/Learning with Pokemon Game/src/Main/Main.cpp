@@ -17,19 +17,19 @@ int main()
 	Pokemon Pikachu("Pikachu", PokemonType::Electric, 100, 10); //parameterized constructor
 
 	//main flow of the game
-	ProfessorOak professor("Professor Oak");
-    N_Player::Player player("Rupesh", Pikachu);
+	ProfessorOak* professor = new ProfessorOak("Professor Oak");
+    N_Player::Player* player = new N_Player::Player("Rupesh", Pikachu);
 
 	//Greet the player and then offer pokemon choice
-	professor.greetPlayer(player);
-	professor.offerPokemonChoices(player);
+	professor->greetPlayer(*player);
+	professor->offerPokemonChoices(*player);
 
 	//main quest explaination
-	professor.explainMainQuest(player);
+	professor->explainMainQuest(*player);
 
-    Game game;
+    Game* game = new Game();
 	//place from where the main game loop will start
-	game.gameLoop(player);
+	game->gameLoop(*player);
 
 	return 0;
 }
