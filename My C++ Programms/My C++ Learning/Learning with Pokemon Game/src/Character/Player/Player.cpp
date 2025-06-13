@@ -19,6 +19,7 @@ Player::Player(string p_name, Pokemon p_chosenPokemon) {
 }
 
 void Player::choosePokemon(int choice) {
+    choice--; // actually case 1(first case start from 1 number) but here it is starting from 0 so if we enter 1 then it will second choice not first so decrease the choice by one.
     switch ((PokemonChoice)choice) {
     case PokemonChoice::Charmander:
         chosenPokemon = Pokemon("Charmander", PokemonType::Fire, 100,10);
@@ -33,7 +34,7 @@ void Player::choosePokemon(int choice) {
         chosenPokemon = Pokemon("Pikachu", PokemonType::Electric, 100, 10);
         break;
     }
-    cout << "Player " << name << " chose " << chosenPokemon.GetName() << "!\n";
+    cout << "Player " << name << " chose " << chosenPokemon.GetName() << endl;
     Utility::WaitForEnter(); // Wait for user to press Enter before proceeding
 }
 }

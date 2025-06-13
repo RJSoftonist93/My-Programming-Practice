@@ -22,7 +22,7 @@ Pokemon::~Pokemon() {
 void Pokemon::attack(Pokemon &target) {
     //cout << name << " attacks with a powerful move!\n";
     int damage = attackPower;
-    cout << name << " attack " << target.name << " for " << damage << " damage!\\n";
+    cout << name << " attack " << target.name << " for " << damage << " damage!" << endl;
     target.takeDamage(damage);
 }
 void Pokemon::takeDamage(int damage)
@@ -39,6 +39,6 @@ void Pokemon::Heal()
 }
 bool Pokemon::isFainted() const
 {
-    return health <= 0;
+    return health <= 0; // this is similar to "bool result = health <= 0;" // result = true i.e. if health is 0 or less than 0 then isFainted will be true
 }
 }

@@ -7,7 +7,7 @@ namespace N_Pokemon
     namespace N_Pokemons
     {
         using namespace std;
-        Zubat::Zubat() : Pokemon("Zubat", PokemonType::Poison, 100, 20){}
+        Zubat::Zubat() : Pokemon("Zubat", PokemonType::Poison, 100, 10){}
         void Zubat::supersonic(Pokemon& target)
         {
             cout << name << " uses supersonic on " << target.GetName() << "!\n";

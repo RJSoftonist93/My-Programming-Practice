@@ -8,7 +8,7 @@ namespace N_Pokemon
     {
         using namespace std;
 
-        Balbasaur::Balbasaur() : Pokemon("Balbasaur", PokemonType::Rock, 100, 35) {}
+        Balbasaur::Balbasaur() : Pokemon("Balbasaur", PokemonType::Rock, 100, 10) {}
 
         void Balbasaur::vineWhip(Pokemon& target)
         {

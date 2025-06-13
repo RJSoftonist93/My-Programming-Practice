@@ -8,7 +8,7 @@ namespace N_Pokemon
     namespace N_Pokemons
     {
         using namespace std;
-        Charmander::Charmander() : Pokemon("Charmander", PokemonType::Fire, 100, 35) {}
+        Charmander::Charmander() : Pokemon("Charmander", PokemonType::Fire, 100, 10) {}
 
         void Charmander::flameThrower(Pokemon& target)
         {

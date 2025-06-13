@@ -7,7 +7,7 @@ namespace N_Pokemon
     {
         using namespace std;
 
-        Squirtle::Squirtle() : Pokemon("Squirtle", PokemonType::Water, 100, 35) {}
+        Squirtle::Squirtle() : Pokemon("Squirtle", PokemonType::Water, 100, 10) {}
 
         void Squirtle::waterSplash(Pokemon& target)
         {
