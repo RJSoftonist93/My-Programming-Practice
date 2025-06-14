@@ -12,7 +12,7 @@ Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_
     : name(p_name), type(p_type), maxHealth(p_maxHealth), health(p_maxHealth), attackPower(p_attackPower) {}
 
 // Copy constructor
-Pokemon::Pokemon(const Pokemon& other) : name(other.name), type(other.type), health(other.health) {}
+Pokemon::Pokemon(const Pokemon& other) : name(other.name), type(other.type), maxHealth(other.maxHealth), health(other.health), attackPower(other.attackPower) {}
 
 // Destructor
 Pokemon::~Pokemon() {
