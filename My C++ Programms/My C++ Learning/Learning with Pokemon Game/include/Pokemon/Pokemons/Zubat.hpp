@@ -9,7 +9,8 @@ namespace N_Pokemon
         public:
             Zubat();
         private:
-            void supersonic(Pokemon& target);
+            void attack(Pokemon& target) override;
+            void superSonic(Pokemon& target);
         };
     }
 }

@@ -8,7 +8,7 @@ WildEncounterManager::WildEncounterManager() {
     srand(time(0)); // Seed the random number generator
 }
 
-Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) {
+Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) { // wild pokemon is created from here so copy constructor is used
     int randomIndex = rand() % grass.WildPokemonList.size();
     return grass.WildPokemonList[randomIndex];
 }

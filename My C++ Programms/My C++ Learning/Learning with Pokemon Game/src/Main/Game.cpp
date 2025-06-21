@@ -53,7 +53,7 @@ void Game::gameLoop(N_Player::Player& player)
             // Create a scope within case 1
             WildEncounterManager encounterManager;
             Pokemon wildPokemon =
-                encounterManager.getRandomPokemonFromGrass(forestGrass);
+                encounterManager.getRandomPokemonFromGrass(forestGrass); //copy constructor used for creating wild pokemon
             battleManager.startBattle(player, wildPokemon);
             //Pokemon encounteredPokemon =
             //    encounterManager.getRandomPokemonFromGrass(forestGrass);

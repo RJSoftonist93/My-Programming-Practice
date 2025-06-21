@@ -8,7 +8,8 @@ namespace N_Pokemon
         class Charmander : public Pokemon
         {
         private:
-            void flameThrower(Pokemon& target);
+            void attack(Pokemon& target) override;
+            void flameThrower(Pokemon& target);//old function
         public:
             Charmander();
         };

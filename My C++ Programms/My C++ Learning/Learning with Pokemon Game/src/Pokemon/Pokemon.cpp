@@ -12,19 +12,27 @@ Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_
     : name(p_name), type(p_type), maxHealth(p_maxHealth), health(p_maxHealth), attackPower(p_attackPower) {}
 
 // Copy constructor
-Pokemon::Pokemon(const Pokemon& other) : name(other.name), type(other.type), maxHealth(other.maxHealth), health(other.health), attackPower(other.attackPower) {}
+Pokemon::Pokemon(const Pokemon& other) : 
+    name(other.name), type(other.type), maxHealth(other.maxHealth),
+    health(other.health), attackPower(other.attackPower)
+{
+    cout << "Copy Constructor Created Pokemon: " << name << " | HP: " << health << " | AP: " << attackPower << endl;
+}
 
 // Destructor
 Pokemon::~Pokemon() {
     // Destructor logic (if any) goes here
 }
 
-void Pokemon::attack(Pokemon &target) {
-    //cout << name << " attacks with a powerful move!\n";
-    int damage = attackPower;
-    cout << name << " attack " << target.name << " for " << damage << " damage!" << endl;
-    target.takeDamage(damage);
+void Pokemon::attack(Pokemon& target) {
 }
+
+//void Pokemon::attack(Pokemon &target) { //old function
+//    //cout << name << " attacks with a powerful move!\n";
+//    int damage = attackPower;
+//    cout << name << " attack " << target.name << " for " << damage << " damage!" << endl;
+//    target.takeDamage(damage);
+//}
 void Pokemon::takeDamage(int damage)
 {
     health -= damage;
