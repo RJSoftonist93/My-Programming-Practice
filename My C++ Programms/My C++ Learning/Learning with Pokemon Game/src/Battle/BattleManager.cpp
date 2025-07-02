@@ -6,14 +6,14 @@ using namespace N_Utility;
 
 namespace N_Battle
 { 
-    void BattleManager :: startBattle(Player &player, Pokemon &wildPokemon) //needed :: sign i.e. scope resolution operator to access data & methods from .hpp file
+    void BattleManager :: startBattle(Player &player, Pokemon* wildPokemon) //needed :: sign i.e. scope resolution operator to access data & methods from .hpp file
     {
-        battleState.playerPokemon = &player.chosenPokemon;
-        battleState.wildPokemon = &wildPokemon;
+        battleState.playerPokemon = player.chosenPokemon;
+        battleState.wildPokemon = wildPokemon;
         battleState.playerTurn = true;
         battleState.battleOngoing = true;
 
-        std::cout << "A wild " << wildPokemon.GetName() << " appeared!" << endl;
+        std::cout << "A wild " << wildPokemon->GetName() << " appeared!" << endl; //use arrow operator(->) to access pointer's object method
         cout << "Player Pokemon health is: " << battleState.playerPokemon->GetHealth() << endl;//custom added code
         cout << "Player Pokemon Attack Power is: " << battleState.playerPokemon->GetAttackPower() << endl;//custom added code
         cout << "Wild Pokemon health is: " << battleState.wildPokemon->GetHealth() << endl;//custom added code

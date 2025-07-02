@@ -146,7 +146,7 @@
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Balbasaur.hpp">
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Bulbasaur.hpp">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>

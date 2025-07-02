@@ -5,7 +5,7 @@ using namespace std;
 namespace N_Pokemon
 { 
 // Default constructor
-Pokemon::Pokemon() : name("Unknown"), type(PokemonType::Normal), health(50) {}
+Pokemon::Pokemon() : name("Unknown"), type(PokemonType::Normal), maxHealth(100), health(50), attackPower(10) {}
 
 // Parameterized constructor
 Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower) 
@@ -24,8 +24,8 @@ Pokemon::~Pokemon() {
     // Destructor logic (if any) goes here
 }
 
-void Pokemon::attack(Pokemon& target) {
-}
+ void Pokemon::attack(Pokemon& target) {
+} 
 
 //void Pokemon::attack(Pokemon &target) { //old function
 //    //cout << name << " attacks with a powerful move!\n";

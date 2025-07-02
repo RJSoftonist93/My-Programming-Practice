@@ -8,9 +8,10 @@ WildEncounterManager::WildEncounterManager() {
     srand(time(0)); // Seed the random number generator
 }
 
-Pokemon WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) { // wild pokemon is created from here so copy constructor is used
+Pokemon* WildEncounterManager::getRandomPokemonFromGrass(const Grass& grass) { // wild pokemon is created from here so copy constructor is used
     int randomIndex = rand() % grass.WildPokemonList.size();
     return grass.WildPokemonList[randomIndex];
+    //return grass.WildPokemonList[randomIndex]->clone(); //clone() in C++ is a common virtual function used with polymorphism to make deep copies of objects
 }
 }
 

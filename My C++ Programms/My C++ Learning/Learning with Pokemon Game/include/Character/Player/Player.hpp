@@ -1,7 +1,8 @@
 // Player.h
 #pragma once
 #include "../../../include/Pokemon/Pokemon.hpp"
-//#include "PokemonType.hpp"
+#include "../../../include/Pokemon/Pokemons/Pikachu.hpp"
+#include "../../../include/Pokemon/Pokemons/Charmander.hpp"
 #include "../../../include/Pokemon/PokemonChoice.hpp"
 #include "../../../include/Utility/Utility.hpp"
 #include "iostream"
@@ -15,10 +16,10 @@ namespace N_Player
 class Player {
 public:
     string name;
-    Pokemon chosenPokemon;
+    Pokemon* chosenPokemon;
 
     Player(); // Default constructor
-    Player(string p_name, Pokemon p_chosenPokemon); // Parameterized constructor
+    Player(string p_name); // Parameterized constructor
 
     void choosePokemon(int choice); // Method to choose a Pokemon
 };

@@ -1,23 +1,11 @@
 ﻿  BattleManager.cpp
-  Game.cpp
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(18,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Main\Game.hpp(15,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(18,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(21,6): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(22,5): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(23,5): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(55,21): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(56,34): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(55,33): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Main.cpp
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(18,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Main\Game.hpp(15,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Main.cpp(17,10): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Main.cpp(17,17): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Main.cpp(21,52): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
   WildEncounterManager.cpp
+  Player.cpp
 E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp(11,31): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
+  ProfessorOak.cpp
+  Game.cpp
+  Main.cpp
+  Pokemon.cpp
   Balbasaur.cpp
   Caterpie.cpp
   Charmander.cpp
@@ -25,15 +13,5 @@ E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C
   Pikachu.cpp
   Squirtle.cpp
   Zubat.cpp
-  Player.cpp
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(18,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(13,21): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(16,9): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(25,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(28,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(31,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Character\Player\Player.cpp(34,25): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
-  Pokemon.cpp
-  ProfessorOak.cpp
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(18,13): error C2259: 'N_Pokemon::Pokemon': cannot instantiate abstract class
   Generating Code...
+  My C++ Learning.vcxproj -> E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\x64\Debug\My C++ Learning.exe
