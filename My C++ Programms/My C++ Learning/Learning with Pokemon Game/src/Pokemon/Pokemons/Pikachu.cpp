@@ -1,6 +1,7 @@
 #include "../../../include/Pokemon/Pokemons/Pikachu.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include<iostream>
+using namespace N_Utility;
 
 namespace N_Pokemon
 {
@@ -12,7 +13,7 @@ namespace N_Pokemon
         Pikachu::Pikachu() : Pokemon("Pikachu", PokemonType::Electric, 100, 10) {}
 
 
-        void Pikachu::attack(Pokemon& target)
+        void Pikachu::attack(Pokemon& target)//This is just a reference — it doesn’t create a Pokemon object.
         {
             thunderShock(target);
         }
@@ -20,7 +21,22 @@ namespace N_Pokemon
         void Pikachu::thunderShock(Pokemon& target)
         {
             cout << name << " uses Thunder Shock on " << target.GetName() << "!\n";
-            target.takeDamage(20);
+            Utility::WaitForEnter();
+
+            cout << "...\n";
+            Utility::WaitForEnter();
+
+            target.takeDamage(attackPower);
+
+            if (target.isFainted())
+            {
+                cout << target.GetName() << " fainted!\n";
+            }
+            else
+            {
+                cout << target.GetName() << " has " << target.GetHealth() << " HP left.\n";
+                Utility::WaitForEnter();
+            }
         }
     }
 }

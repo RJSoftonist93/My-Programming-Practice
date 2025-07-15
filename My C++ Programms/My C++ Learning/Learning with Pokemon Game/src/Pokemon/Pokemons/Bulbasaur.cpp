@@ -1,4 +1,4 @@
-#include "../../../include/Pokemon/Pokemons/Zubat.hpp"
+#include "../../../include/Pokemon/Pokemons/Bulbasaur.hpp"
 #include "../../../include/Pokemon/PokemonType.hpp"
 #include <iostream>
 using namespace N_Utility;
@@ -8,16 +8,17 @@ namespace N_Pokemon
     namespace N_Pokemons
     {
         using namespace std;
-        Zubat::Zubat() : Pokemon("Zubat", PokemonType::Poison, 100, 10){}
 
-        void Zubat::attack(Pokemon& target)//This is just a reference — it doesn’t create a Pokemon object.
+        Bulbasaur::Bulbasaur() : Pokemon("Bulbasaur", PokemonType::Rock, 100, 10) {}
+
+        void Bulbasaur :: attack(Pokemon& target)//This is just a reference — it doesn’t create a Pokemon object.
         {
-            superSonic(target);
+            vineWhip(target);
         }
 
-        void Zubat::superSonic(Pokemon& target)
+        void Bulbasaur::vineWhip(Pokemon& target) //old function
         {
-            cout << name << " uses supersonic on " << target.GetName() << "!\n";
+            cout << name << " uses Vine Whip on " << target.GetName() << "!\n";
             Utility::WaitForEnter();
 
             cout << "...\n";

@@ -75,8 +75,6 @@ void Game::gameLoop(N_Player::Player& player)
             wildPokemon =
                 encounterManager.getRandomPokemonFromGrass(forestGrass); //copy constructor used for creating wild pokemon
             battleManager.startBattle(player, wildPokemon);
-            delete wildPokemon;
-            wildPokemon = nullptr;
             //Pokemon encounteredPokemon =
             //    encounterManager.getRandomPokemonFromGrass(forestGrass);
             //cout << "A wild " << encounteredPokemon.name << " appeared!\n";

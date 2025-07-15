@@ -18,7 +18,7 @@ public:
     string name;
     Pokemon* chosenPokemon;
 
-    Player(); // Default constructor
+    //Player(); // now no need of Default constructor
     Player(string p_name); // Parameterized constructor
 
     void choosePokemon(int choice); // Method to choose a Pokemon

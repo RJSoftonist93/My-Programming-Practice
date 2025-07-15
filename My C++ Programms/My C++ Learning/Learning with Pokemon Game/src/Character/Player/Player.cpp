@@ -16,10 +16,10 @@ using namespace N_Pokemon::N_Pokemons;
 
 namespace N_Player
 {
-Player::Player() {
-    name = "Trainer";
-    chosenPokemon = new N_Pokemon::N_Pokemons::Pikachu(); // Using the default Pokemon constructor
-}
+//Player::Player() { //now no need of default constructor
+//    name = "Trainer";
+//    chosenPokemon = new N_Pokemon::N_Pokemons::Pikachu(); // Using the default Pokemon constructor
+//}
 
 Player::Player(string p_name) {
     name = p_name;

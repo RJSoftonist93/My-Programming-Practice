@@ -1,12 +1,4 @@
-﻿  BattleManager.cpp
-  WildEncounterManager.cpp
-  Player.cpp
-E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
-  ProfessorOak.cpp
-  Game.cpp
-  Main.cpp
-  Pokemon.cpp
-  Balbasaur.cpp
+﻿  Bulbasaur.cpp
   Caterpie.cpp
   Charmander.cpp
   Pidgey.cpp

@@ -136,7 +136,7 @@
     <ClCompile Include="Learning with Pokemon Game\src\Main\Game.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Main\Main.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp" />
-    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Balbasaur.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Bulbasaur.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Caterpie.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Charmander.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pidgey.cpp" />

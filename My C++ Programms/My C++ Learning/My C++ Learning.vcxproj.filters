@@ -87,7 +87,7 @@
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Charmander.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Balbasaur.cpp">
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Bulbasaur.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
