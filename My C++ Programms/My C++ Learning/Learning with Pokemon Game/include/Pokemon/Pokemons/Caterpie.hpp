@@ -1,5 +1,7 @@
 #pragma once
 #include "../../../include/Pokemon/Pokemon.hpp"
+#include "../../../include/Utility/Utility.hpp"
+
 
 namespace N_Pokemon
 {
@@ -7,10 +9,11 @@ namespace N_Pokemon
     {
         class Caterpie : public Pokemon
         {
+        private:
+            void attack(Pokemon& target) override;
+            void bugBite(Pokemon& target); //old function
         public:
             Caterpie();
-        private:
-            void bugBite(Pokemon& target);
         };
     }
 }

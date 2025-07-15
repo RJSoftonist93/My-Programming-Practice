@@ -4,7 +4,9 @@
 using namespace std;
 //#include "PokemonType.hpp" //instead of the full file we are using forward declaratiion
 //enum PokemonType; //forward declaration
-
+// 
+    // abstract function is used in Pokemon class so Pokemon class is Abstract class now. 
+    // no object of abstract class is createred. We can only create & use pointer object of abstract class
 namespace N_Pokemon
 { 
 class Pokemon {
@@ -53,7 +55,9 @@ public:  //everything below is public unless we add private: or protected:
     // Destructor
     ~Pokemon();
 
-    void attack(Pokemon &target);
+    // abstract function is used in Pokemon class so Pokemon class is Abstract class now. 
+    // no object of abstract class is createred. We can only create & use pointer object of abstract class
+    virtual void attack(Pokemon &target) = 0; 
     void Heal();
 };
 }

@@ -136,7 +136,7 @@
     <ClCompile Include="Learning with Pokemon Game\src\Main\Game.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Main\Main.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp" />
-    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Balbasaur.cpp" />
+    <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Bulbasaur.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Caterpie.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Charmander.cpp" />
     <ClCompile Include="Learning with Pokemon Game\src\Pokemon\Pokemons\Pidgey.cpp" />
@@ -162,7 +162,7 @@
     <ClInclude Include="Learning with Pokemon Game\include\Character\Player\Player.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemon.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\PokemonChoice.hpp" />
-    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Balbasaur.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Bulbasaur.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Caterpie.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemons\Pidgey.hpp" />

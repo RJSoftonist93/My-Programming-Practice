@@ -5,6 +5,7 @@
 #include "../../include/Character/ProfessorOak.hpp"
 #include "../../include/Main/Game.hpp"
 #include "../../include/Character/Player/Player.hpp"
+#include "../../include/Pokemon/Pokemons/Pikachu.hpp"
 using namespace std;
 using namespace N_Character;
 using namespace N_Main;
@@ -14,11 +15,12 @@ int main()
 {
    
 	//creating pokemon & player objects
-	Pokemon Pikachu("Pikachu", PokemonType::Electric, 100, 10); //parameterized constructor
+	//Pokemon Pikachu("Pikachu", PokemonType::Electric, 100, 10); //parameterized constructor
+    //Pokemon* pikachu = new Pikachu(); //default Pokemon
 
 	//main flow of the game
 	ProfessorOak* professor = new ProfessorOak("Professor Oak");
-    N_Player::Player* player = new N_Player::Player("Rupesh", Pikachu);
+    N_Player::Player* player = new N_Player::Player("Rupesh");
 
 	//Greet the player and then offer pokemon choice
 	professor->greetPlayer(*player);

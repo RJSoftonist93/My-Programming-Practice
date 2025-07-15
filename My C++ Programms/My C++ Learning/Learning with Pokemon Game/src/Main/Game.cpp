@@ -2,27 +2,47 @@
 #include <iostream>
 #include "../../include/Main/Game.hpp"
 #include "../../include/Character/Player/Player.hpp"
-#include "../../include/Pokemon/Pokemon.hpp"
 #include "../../include/Battle/WildEncounterManager.hpp"
 #include "../../include/Battle/BattleManager.hpp"
+#include "../../include/Pokemon/Pokemon.hpp"
+#include "../../include/Pokemon/Pokemons/Bulbasaur.hpp"
+#include "../../include/Pokemon/Pokemons/Caterpie.hpp"
+#include "../../include/Pokemon/Pokemons/Charmander.hpp"
+#include "../../include/Pokemon/Pokemons/Pidgey.hpp"
+#include "../../include/Pokemon/Pokemons/Pikachu.hpp"
+#include "../../include/Pokemon/Pokemons/Squirtle.hpp"
+#include "../../include/Pokemon/Pokemons/Zubat.hpp"
+
 #include <string>
 using namespace std;
 using namespace N_Utility;
 using namespace N_Battle;
 using namespace N_Player;
-using namespace N_Pokemon;
+using namespace N_Pokemon::N_Pokemons;
 
 namespace N_Main
 {
 Game::Game() 
 {
-    forestGrass = {
-    "Forest",
-    {Pokemon{"Zubat", PokemonType::Poison, 30, 10},
-    Pokemon{ "Pidgey", PokemonType::Normal, 40, 10 },
-    Pokemon{"Caterpie", PokemonType::Bug, 35, 10}},
-    70
-    };
+    //we are creating grass struct here as we have defined it Grass {Environment type, Pokemon list, Encounter rate}
+    forestGrass = { "Forest",
+        { 
+        new Zubat(),
+        new Pidgey(), 
+        new Caterpie()
+        },
+        70}; 
+    //forestGrass = { //old code
+    //"Forest",
+    //{Pokemon{"Zubat", PokemonType::Poison, 30, 20},
+    //Pokemon{ "Pidgey", PokemonType::Normal, 40, 35},
+    //Caterpie{"Caterpie", PokemonType::Bug, 40, 10}},
+    //70
+    //};
+}
+Game::~Game()
+{
+    delete(wildPokemon);
 }
 
 void Game::gameLoop(N_Player::Player& player)
@@ -36,7 +56,7 @@ void Game::gameLoop(N_Player::Player& player)
         Utility::ClearConsole();
 
         // Display options to the player
-        cout << "\nWhat would you like to do next, " << player.name << "?\n";
+        cout << "\nWhat would you like to do next, " << player.name << "?" << endl;
         cout << "1. Battle Wild Pokémon\n";
         cout << "2. Visit PokeCenter\n";
         cout << "3. Challenge Gyms\n";
@@ -52,8 +72,8 @@ void Game::gameLoop(N_Player::Player& player)
         case 1: {
             // Create a scope within case 1
             WildEncounterManager encounterManager;
-            Pokemon wildPokemon =
-                encounterManager.getRandomPokemonFromGrass(forestGrass);
+            wildPokemon =
+                encounterManager.getRandomPokemonFromGrass(forestGrass); //copy constructor used for creating wild pokemon
             battleManager.startBattle(player, wildPokemon);
             //Pokemon encounteredPokemon =
             //    encounterManager.getRandomPokemonFromGrass(forestGrass);
@@ -61,8 +81,11 @@ void Game::gameLoop(N_Player::Player& player)
             break;
         }
         case 2: {
-            cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee "
-                "break. Guess your Pokémon will have to tough it out for now!\n";
+            cout << "You head to the PokeCenter" << endl;
+            player.chosenPokemon->Heal(); //use arrow operator(->) is used to access pointer's object method(here Pokemon is Abstract class)
+            cout << player.chosenPokemon->GetName() << "'s health is fully restored" << endl;
+ /*           cout << "You head to the PokeCenter, but Nurse Joy is out on a coffee "
+                "break. Guess your Pokémon will have to tough it out for now!\n";*/
             break;
         }
         case 3: {
