@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
@@ -70,6 +70,10 @@
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <EnableClangTidyCodeAnalysis>true</EnableClangTidyCodeAnalysis>
+    <ClangTidyChecks>clang-analyzer-*,modernize-*,performance-*,readability-*</ClangTidyChecks>
+  </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <ClCompile>
       <WarningLevel>Level3</WarningLevel>
@@ -158,6 +162,7 @@
     <ClInclude Include="Learning with Pokemon Game\include\Battle\BattleManager.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Battle\BattleState.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Main\Game.hpp" />
+    <ClInclude Include="Learning with Pokemon Game\include\Move\Move.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Grass.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Character\Player\Player.hpp" />
     <ClInclude Include="Learning with Pokemon Game\include\Pokemon\Pokemon.hpp" />

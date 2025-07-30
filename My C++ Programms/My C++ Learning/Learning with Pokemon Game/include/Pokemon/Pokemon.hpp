@@ -1,6 +1,9 @@
 #pragma once
 #include <string>
-#include "PokemonType.hpp"
+#include <vector>
+#include "../../include/Utility/Utility.hpp"
+#include "../../include/Pokemon/PokemonType.hpp"
+#include "../../include/Move/Move.hpp"
 using namespace std;
 //#include "PokemonType.hpp" //instead of the full file we are using forward declaratiion
 //enum PokemonType; //forward declaration
@@ -9,7 +12,13 @@ using namespace std;
     // no object of abstract class is createred. We can only create & use pointer object of abstract class
 namespace N_Pokemon
 { 
+
 class Pokemon {
+public: //everything below is public unless we add private: or protected:
+    struct Move;
+    enum class PokemonType;
+    vector <Move> moves; //store the list of moves here
+
 protected:   //everything below is protected unless we add private: or public:
     string name;
     PokemonType type;
@@ -40,6 +49,7 @@ public:  //everything below is public unless we add private: or protected:
     {
         return attackPower;
     }
+
     // Default constructor
     Pokemon();
 
@@ -57,7 +67,13 @@ public:  //everything below is public unless we add private: or protected:
 
     // abstract function is used in Pokemon class so Pokemon class is Abstract class now. 
     // no object of abstract class is createred. We can only create & use pointer object of abstract class
-    virtual void attack(Pokemon &target) = 0; 
+    virtual void attack(Move selectedMove, Pokemon& target) = 0;
     void Heal();
+
+    int selectMove();
+    void useMove(Move selectedMove, Pokemon& target);
+    //base implementation for selecting and using move
+    void selectAndUseMove(Pokemon* target);
+    void printAvailableMoves();
 };
 }

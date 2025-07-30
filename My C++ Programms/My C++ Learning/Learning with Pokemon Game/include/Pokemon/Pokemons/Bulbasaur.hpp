@@ -9,10 +9,11 @@ namespace N_Pokemon
         class Bulbasaur : public Pokemon
         {
         private://everything below is private unless we add protected: or public:
-            void attack(Pokemon& target) override;
-            void vineWhip(Pokemon& target);//old function
+        
+            //void vineWhip(Pokemon& target);//old function
         public://everything below is public unless we add protected: or private:
             Bulbasaur();
+            void attack(Move selectedMove, Pokemon& target) override;
         };
     }
 }
