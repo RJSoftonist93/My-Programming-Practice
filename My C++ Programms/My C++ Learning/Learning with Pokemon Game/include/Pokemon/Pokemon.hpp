@@ -4,6 +4,7 @@
 #include "../../include/Utility/Utility.hpp"
 #include "../../include/Pokemon/PokemonType.hpp"
 #include "../../include/Move/Move.hpp"
+#include "../../include/Battle/BattleManager.hpp"
 using namespace std;
 using namespace N_Move;
 //#include "PokemonType.hpp" //instead of the full file we are using forward declaratiion
@@ -53,7 +54,7 @@ namespace N_Pokemon
         Pokemon();
 
         // Parameterized constructor
-        Pokemon(string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower);
+        Pokemon(string p_name, PokemonType p_type, int p_maxHealth, vector<Move> moves);
 
         // Copy constructor
         Pokemon(const Pokemon& other);
@@ -66,11 +67,11 @@ namespace N_Pokemon
 
         // abstract function is used in Pokemon class so Pokemon class is Abstract class now. 
         // no object of abstract class is createred. We can only create & use pointer object of abstract class
-        virtual void attack(Move selectedMove, Pokemon& target) = 0;
+        virtual void attack(Move selectedMove, Pokemon* target) = 0;
         void Heal();
 
         int selectMove();
-        void useMove(Move selectedMove, Pokemon& target);
+        void useMove(Move selectedMove, Pokemon* target);
         //base implementation for selecting and using move
         void selectAndUseMove(Pokemon* target);
         void printAvailableMoves();

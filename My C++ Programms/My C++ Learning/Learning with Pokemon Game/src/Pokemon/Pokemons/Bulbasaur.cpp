@@ -9,19 +9,17 @@ namespace N_Pokemon
     {
         using namespace std;
 
-        Bulbasaur::Bulbasaur() : Pokemon("Bulbasaur", PokemonType::Grass, 110, 
-            {Move("VINE WHIP", 25),
-            Move("TACKLE", 10)
-            }){}
+        Bulbasaur::Bulbasaur() : Pokemon("Bulbasaur", PokemonType::Grass, 110,{Move("VINE WHIP", 25),Move("TACKLE", 10)})
+        {}
 
-        void Bulbasaur::attack(Move selectedMove, Pokemon& target)
+        void Bulbasaur::attack(Move selectedMove, Pokemon* target)
         {
             Pokemon::attack(selectedMove, target);
 
             if (selectedMove.name == "VINE WHIP")
             {
                 //Chance for a second hit (50% chance)
-                int secondHitChance = rand() % 2;
+                int secondHitChance = rand() % 2; //Any number divided by 2 always gives the reminder as 0 or 1. Hence, the value of secondHitChance will either be 0 or 1!
 
                 if (secondHitChance == 1)
                 {
@@ -31,7 +29,9 @@ namespace N_Pokemon
                 else
                 {
                     cout << target->GetName() << " dodged the second hit!\n";
+                    Utility::WaitForEnter();
                 }
+
             }
         }
 

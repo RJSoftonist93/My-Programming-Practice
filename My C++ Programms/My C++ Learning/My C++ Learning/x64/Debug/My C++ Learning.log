@@ -1,0 +1,566 @@
+﻿  Game.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2871: 'N_Player': a namespace with this name does not exist
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2065: 'N_Player': undeclared identifier
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,22): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Game.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(77,27): error C2660: 'N_Battle::BattleManager::startBattle': function does not take 2 arguments
+      E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,10):
+      see declaration of 'N_Battle::BattleManager::startBattle'
+      E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Main\Game.cpp(77,27):
+      while trying to match the argument list '(N_Player::Player, N_Pokemon::Pokemon *)'
+  
+  Main.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Main/Main.cpp')
+  
+  WildEncounterManager.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Battle/WildEncounterManager.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Battle\WildEncounterManager.cpp(8,15): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+  Bulbasaur.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Bulbasaur.cpp')
+  
+  Caterpie.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Caterpie.cpp')
+  
+  Charmander.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Charmander.cpp')
+  
+  Pidgey.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pidgey.cpp')
+  
+  Pikachu.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Pikachu.cpp')
+  
+  Squirtle.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Squirtle.cpp')
+  
+  Zubat.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemons/Zubat.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\src\Pokemon\Pokemons\Zubat.cpp(20,52): warning C4244: '+=': conversion from 'double' to 'int', possible loss of data
+  Player.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2871: 'N_Player': a namespace with this name does not exist
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2065: 'N_Player': undeclared identifier
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,22): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/Player/Player.cpp')
+  
+  Pokemon.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(10,32): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Pikachu.hpp(15,18): error C3668: 'N_Pokemon::N_Pokemons::Pikachu::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(9,35): error C2504: 'Pokemon': base class undefined
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,25): error C2061: syntax error: identifier 'Move'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Pokemon\Pokemons\Charmander.hpp(12,18): error C3668: 'N_Pokemon::N_Pokemons::Charmander::attack': method with override specifier 'override' did not override any base class methods
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Character\Player\Player.hpp(19,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,38): error C2061: syntax error: identifier 'Pokemon'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Pokemon/Pokemon.cpp')
+  
+  ProfessorOak.cpp
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(7,27): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,12): error C2143: syntax error: missing ';' before '*'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,5): error C4430: missing type specifier - int assumed. Note: C++ does not support default-int
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleState.hpp(8,25): error C2238: unexpected token(s) preceding ';'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2871: 'N_Player': a namespace with this name does not exist
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(6,17): error C2065: 'N_Player': undeclared identifier
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+E:\Outscal\My_Programming_Practice\My-Programming-Practice\My C++ Programms\My C++ Learning\Learning with Pokemon Game\include\Battle\BattleManager.hpp(14,22): error C2061: syntax error: identifier 'Player'
+  (compiling source file 'Learning%20with%20Pokemon%20Game/src/Character/ProfessorOak.cpp')
+  
+  Vectors.cpp
+  Generating Code...

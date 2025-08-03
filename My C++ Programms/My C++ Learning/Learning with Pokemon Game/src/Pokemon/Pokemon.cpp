@@ -10,8 +10,8 @@ namespace N_Pokemon
 Pokemon::Pokemon() : name("Unknown"), type(PokemonType::Water), maxHealth(100), health(50), attackPower(10) {}
 
 // Parameterized constructor
-Pokemon::Pokemon(std::string p_name, PokemonType p_type, int p_maxHealth, int p_attackPower) 
-    : name(p_name), type(p_type), maxHealth(p_maxHealth), health(p_maxHealth), attackPower(p_attackPower) {}
+Pokemon::Pokemon(string p_name, PokemonType p_type, int p_maxHealth, vector<Move> p_moves) 
+    : name(p_name), type(p_type), maxHealth(p_maxHealth), health(p_maxHealth), moves(p_moves) {}
 
 // Copy constructor
 Pokemon::Pokemon(const Pokemon& other) : 
@@ -26,9 +26,9 @@ Pokemon::~Pokemon() {
     // Destructor logic (if any) goes here
 }
 
- void Pokemon::attack(Move selectedMove, Pokemon& target)
+ void Pokemon::attack(Move selectedMove, Pokemon* target)
  {
-     target.takeDamage(selectedMove.power);
+     target->takeDamage(selectedMove.power);
  } 
 
 //void Pokemon::attack(Pokemon &target) { //old function
@@ -90,7 +90,7 @@ int Pokemon::selectMove()
     return choice;
 }
 
-void Pokemon::useMove(Move selectedMove, Pokemon& target)
+void Pokemon::useMove(Move selectedMove, Pokemon* target)
 {
     cout << name << " used " << selectedMove.name << "!\n";
     attack(selectedMove, target);
@@ -100,13 +100,13 @@ void Pokemon::useMove(Move selectedMove, Pokemon& target)
     cout << "...\n";
     Utility::WaitForEnter();
 
-    if (target.isFainted())
+    if (target->isFainted())
     {
-        cout << target.GetName() << " fainted!\n";
+        cout << target->GetName() << " fainted!\n";
     }
     else
     {
-        cout << target.GetName() << " has " << target.GetHealth() << "HP left.\n";
+        cout << target->GetName() << " has " << target->GetHealth() << "HP left.\n";
     }
 }
 }

@@ -13,7 +13,7 @@ namespace N_Pokemon
             //void vineWhip(Pokemon& target);//old function
         public://everything below is public unless we add protected: or private:
             Bulbasaur();
-            void attack(Move selectedMove, Pokemon& target) override;
+            void attack(Move selectedMove, Pokemon* target) override;
         };
     }
 }

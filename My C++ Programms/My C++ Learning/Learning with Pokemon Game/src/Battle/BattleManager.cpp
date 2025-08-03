@@ -70,7 +70,7 @@ namespace N_Battle
 
     void BattleManager::updateBattleState()
     {
-        if (battleState.playerPokemon -> isFainted())
+        if (battleState.playerPokemon->isFainted())
         {
             battleState.battleOngoing = false;
         }

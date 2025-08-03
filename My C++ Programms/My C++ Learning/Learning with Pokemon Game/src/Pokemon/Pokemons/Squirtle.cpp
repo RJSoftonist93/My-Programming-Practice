@@ -8,32 +8,20 @@ namespace N_Pokemon
     {
         using namespace std;
 
-        Squirtle::Squirtle() : Pokemon("Squirtle", PokemonType::Water, 100, 10) {} //Squirtle() is default constructor, which is calling to the parameterized constructor. This concept is known as a constructor initializer list
+        Squirtle::Squirtle() : Pokemon("Squirtle", PokemonType::Water, 100, {Move("RAPID SPIN", 5)}) {} //Squirtle() is default constructor, which is calling to the parameterized constructor. This concept is known as a constructor initializer list
 
-        void Squirtle::attack(Pokemon& target)//This is just a reference — it doesn’t create a Pokemon object.
+        void Squirtle::attack(Move selectedMove, Pokemon* target)//This is just a reference — it doesn’t create a Pokemon object.
         {
-            waterSplash(target);
-        }
+            //Random number of hits between 2 & 5
+            int hits = (rand() % 4) + 2;
 
-        void Squirtle::waterSplash(Pokemon& target)
-        {
-            cout << name << " uses Water Splash on " << target.GetName() << "!\n";
-            Utility::WaitForEnter();
-
-            cout << "...\n";
-            Utility::WaitForEnter();
-
-            target.takeDamage(attackPower);
-
-            if (target.isFainted())
+            //split damage across hit
+            for(int i = 0; i < hits; ++i)
             {
-                cout << target.GetName() << " fainted!\n";
+                Pokemon::attack(selectedMove, target);
             }
-            else
-            {
-                cout << target.GetName() << " has " << target.GetHealth() << " HP left.\n";
-                Utility::WaitForEnter();
-            }
+            cout << ".... and hit " << hits << " times!\\n";
+            Utility::WaitForEnter();
         }
     }
 }

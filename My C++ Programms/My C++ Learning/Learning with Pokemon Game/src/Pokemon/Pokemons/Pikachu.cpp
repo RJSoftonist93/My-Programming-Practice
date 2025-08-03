@@ -9,34 +9,29 @@ namespace N_Pokemon
     {
         using namespace std;
 
-        //Pikachu::Pikachu() : Pokemon("Pikachu", PokemonType::Electric, 100, 10) {} //old code
-        Pikachu::Pikachu() : Pokemon("Pikachu", PokemonType::Electric, 100, 10) {}
+        Pikachu::Pikachu() : Pokemon("Pikachu", PokemonType::Electric, 100, {Move("THUNDER BOLT", 80)}) {}
 
 
-        void Pikachu::attack(Pokemon& target)//This is just a reference — it doesn’t create a Pokemon object.
+        void Pikachu::attack(Move selectedMove, Pokemon* target)//This is just a reference — it doesn’t create a Pokemon object.
         {
-            thunderShock(target);
-        }
-
-        void Pikachu::thunderShock(Pokemon& target)
-        {
-            cout << name << " uses Thunder Shock on " << target.GetName() << "!\n";
-            Utility::WaitForEnter();
-
-            cout << "...\n";
-            Utility::WaitForEnter();
-
-            target.takeDamage(attackPower);
-
-            if (target.isFainted())
+            if (selectedMove.name == "THUNDER BOLT")
             {
-                cout << target.GetName() << " fainted!\n";
+                //80% chance to hit
+                if (rand() % 100 < 80)
+                {
+                    Pokemon::attack(selectedMove, target);
+                    cout << ".... and it hit successfully!\n";
+                }
+                else
+                {
+                    cout << ".... but it missed!\n";
+                }
             }
             else
             {
-                cout << target.GetName() << " has " << target.GetHealth() << " HP left.\n";
-                Utility::WaitForEnter();
+                Pokemon::attack(selectedMove, target);
             }
+            Utility::WaitForEnter();
         }
     }
 }

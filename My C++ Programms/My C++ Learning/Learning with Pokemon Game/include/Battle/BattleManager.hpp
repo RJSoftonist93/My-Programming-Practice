@@ -12,13 +12,12 @@ class BattleManager
 {
 public:
     void startBattle(Player &player, Pokemon* wildPokemon);
+    void updateBattleState();
 private:
     BattleState battleState;
     //void battle(Player &playerPokemon, Pokemon &wildPokemon);
     //void handleBattleOutcome(Player& player, bool playerWon);
     void battle();
     void handleBattleOutcome();
-
-    void updateBattleState();
 };
 }
